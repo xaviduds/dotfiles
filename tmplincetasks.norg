@@ -1,0 +1,15 @@
+poder escrever o nome do cadastro fzf alem de numero
+Transformar cada campo em um input e colocar o placeholder já preenchido com a info do bgl, se a pessoa clica ele continua com a informação lá, não reseta o campo
+
+config tem views 'abertas' como abas clicáveis, toggleáveis.
+tu pode ter uma config, pq quer um comportamento e teus dados, e só ter uma config nova quando reseta a lince. ou nao sei la, só menos código pra rodar acho, n sei, pode ser uma gambiarra.
+
+poder rodar codigo de diferentes linguagens em karma
+
+se tem um lugar que disponibiliza codigos dna da lince tem que ter uma ferramenta pra importar e exportar facilmente dna
+
+remover espaço entre itens de karma, c22, c34, vira c22,c34
+
+ter um mapeamento de colunas, tu pode editar o schema da lince, mas quando for fazer trocas ter um mapeamento das que tu criou e das padrões, tipo record head default mas tu criou record title, quando for pingar pros outros tu pinga assinalando como em uma API? o que tu tem e o que tu vai mandar como, nesse caso em head.
+
+add aviso de tasks que falharam em um log
