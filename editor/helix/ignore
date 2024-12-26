@@ -1,0 +1,6 @@
+library
+xaviduds/lince/bureau
+xaviduds/dotfiles/wallpapers
+.*
+!.gitignore
+!xaviduds/dotfiles/.*

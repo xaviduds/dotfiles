@@ -1,0 +1,36 @@
+theme = "dark"
+[editor]
+line-number = "relative"
+soft-wrap.enable = true
+cursor-shape.insert = "bar"
+bufferline = "multiple"
+
+# [editor.whitespace.render]
+# space = "all"
+# tab = "all"
+
+[editor.file-picker]
+hidden = false
+
+[editor.statusline]
+left = ["mode", "read-only-indicator","file-type", "file-name","version-control", "read-only-indicator", "file-modification-indicator"]
+center = ["spinner", "workspace-diagnostics"]
+right = ["diagnostics", "selections", "position", "register", "total-line-numbers", "position-percentage","file-encoding"]
+separator = ""
+mode.normal = "N"
+mode.insert = "I"
+mode.select = "S"
+
+[keys.insert]
+"A-w" = [ ":w" ]
+"A-q" = [ ":q" ]
+"A-s" = [ ":wq" ]
+"A-b" = [ ":bc" ]
+
+[keys.normal]
+"A-j" = [ "extend_to_line_bounds", "delete_selection", "paste_after" ]
+"A-k" = [ "extend_to_line_bounds", "delete_selection", "move_line_up", "paste_before" ]
+"A-w" = [ ":w" ]
+"A-q" = [ ":q" ]
+"A-s" = [ ":wq" ]
+"A-b" = [ ":bc" ]
