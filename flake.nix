@@ -10,15 +10,19 @@
     #   url = "github:nix-community/home-manager";
     #   inputs.nixpkgs.follows = "nixpkgs";
     # };
+    ghostty = {
+      url = "github:ghostty-org/ghostty";
+    };
   };
   outputs =
-    { nixpkgs, ... }@inputs:
+    { nixpkgs, ghostty, ... }@inputs:
     {
       nixosConfigurations.default = nixpkgs.lib.nixosSystem {
         specialArgs = {
           inherit inputs;
         };
         modules = [
+          { environment.systemPackages = [ ghostty.packages.x86_64-linux.default ]; }
           ./configuration.nix
           # inputs.home-manager.nixosModules.default
           # inputs.impermanence.nixosModules.impermanence

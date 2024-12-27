@@ -24,6 +24,12 @@ mkdir -p "$CONFIG_DIR/emacs"
 cat "$DOTFILES_DIR/editor/emacs/init.el" > "$CONFIG_DIR/emacs/init.el"
 cat "$DOTFILES_DIR/editor/emacs/config.org" > "$CONFIG_DIR/emacs/config.org"
 
+# Ghostty
+safe_sudo rm -rf "$HOME_DIR/ghostty"
+safe_sudo rm -rf "$CONFIG_DIR/ghostty"
+cp -r "$DOTFILES_DIR/terminal/ghostty" "$HOME_DIR/ghostty"
+safe_sudo mv "$HOME_DIR/ghostty" "$CONFIG_DIR/ghostty"
+
 # Set gitconfig
 cat "$DOTFILES_DIR/terminal/git/gitconfig" > "$HOME_DIR/.gitconfig"
 
@@ -50,6 +56,13 @@ safe_sudo mv "$HOME_DIR/nvim" "$CONFIG_DIR/nvim"
 mkdir -p "$CONFIG_DIR/nushell"
 cat "$DOTFILES_DIR/terminal/nushell/config.nu" > "$CONFIG_DIR/nushell/config.nu"
 cat "$DOTFILES_DIR/terminal/nushell/env.nu" > "$CONFIG_DIR/nushell/env.nu"
+
+# Rofi
+safe_sudo rm -rf "$HOME_DIR/rofi"
+safe_sudo rm -rf "$CONFIG_DIR/rofi"
+cp -r "$DOTFILES_DIR/terminal/rofi" "$HOME_DIR/rofi"
+safe_sudo mv "$HOME_DIR/rofi" "$CONFIG_DIR/rofi"
+
 
 # Starship
 cat "$DOTFILES_DIR/terminal/starship/starship.toml" > "$CONFIG_DIR/starship.toml"

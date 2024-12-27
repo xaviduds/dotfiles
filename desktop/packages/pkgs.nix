@@ -5,13 +5,8 @@
       STEAM_EXTRA_COMPAT_TOOLS_PATHS = "\${HOME}/.steam/root/compatibilitytools.d";
     };
     systemPackages = with pkgs; [
-      adwaita-icon-theme
-      ags
       alacritty
       astro-language-server
-      black
-      bottles
-      brave
       brightnessctl
       carapace
       chromium
@@ -19,7 +14,6 @@
       # coreutils
       dbeaver-bin
       delta
-      delve
       discord
       eslint
       eslint_d
@@ -32,28 +26,22 @@
       gcc
       gimp
       git
-      gnome-themes-extra
       gopls
       grim
       helix
-      imagemagick
       isort
-      jdk
       lua-language-server
       luajitPackages.luarocks
       # ladybird
       lazygit
-      libreoffice
-      librewolf
       markdown-oxide
       marksman
+      mesa
       mpv
       mypy
       ncdu
       neovim
       nil
-      niri
-      nixd
       nixfmt-rfc-style
       nodePackages.bash-language-server
       nodePackages.prettier
@@ -67,7 +55,6 @@
       # nushellPlugins.formats
       openssl
       # pgformatter
-      pgmodeler
       pnpm
       # postgres-lsp
       postman
@@ -78,6 +65,7 @@
       ruff
       rustup
       slurp
+      rofi-wayland
       sonic-pi
       sql-formatter
       sqlfluff
@@ -90,18 +78,13 @@
       swww
       tailwindcss-language-server
       ueberzugpp
-      unrar-free
       unzip
-      vlc
-      vscode
       vscode-langservers-extracted
       waybar
       wl-clipboard
-      xterm
       yazi
       yt-dlp
       zathura
-      zed-editor
       zig
       zip
       zls

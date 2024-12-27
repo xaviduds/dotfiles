@@ -72,24 +72,24 @@
     "critical-threshold": 80,
     "format": " {temperatureC}°C",
     "format-critical": "AAAAAAAAAAAAA {temperatureC}°C",
-    "interval": 10
+    "interval": 1
   },
   "cpu": {
-    "interval": 10,
+    "interval": 1,
     "format": "  {usage:>2}%",
     "min-length": 6
   },
   "memory": {
     "format": "  {used:>2.0f}/{total:.0f}",
     "tooltip": false,
-    "interval": 10
+    "interval": 1
   },
   "disk": {
     "format": "  {specific_used:>3.0f}/{specific_total:.0f}",
     "unit": "GB",
     "path": "/",
     "tooltip": false,
-    "interval": 60
+    "interval": 1
   },
   "privacy": {
     "icon-spacing": 4,
