@@ -30,6 +30,7 @@
       grim
       helix
       isort
+      kitty
       lua-language-server
       luajitPackages.luarocks
       # ladybird

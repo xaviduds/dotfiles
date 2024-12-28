@@ -1,8 +1,11 @@
-{ lib, ... }:
+{
+  device ? throw "vetor aeeee",
+  ...
+}:
 {
   disko.devices = {
     disk.main = {
-      device = lib.mkDefault "/dev/nvme0n1";
+      inherit device;
       type = "disk";
       content = {
         type = "gpt";

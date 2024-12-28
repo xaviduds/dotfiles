@@ -4,7 +4,7 @@
     ./desktop/hardware/hardware-configuration.nix
     ./desktop/hardware/hardware.nix
     ./desktop/boot/boot.nix
-    #./desktop/impermanence/impermanence.nix
+    ./desktop/impermanence/impermanence.nix
     ./desktop/misc/fonts.nix
     ./desktop/misc/keymap.nix
     ./desktop/misc/locale.nix

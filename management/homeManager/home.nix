@@ -1,17 +1,17 @@
-{ pkgs, ... }:
+{ inputs, ... }:
 {
+  imports = [ inputs.impermanence.nixosModules.home-manager.impermanence ];
   home = {
     username = "eduardo";
     homeDirectory = "/home/eduardo";
     stateVersion = "24.11";
-  };
-  programs = {
-    neovim = {
-      enable = true;
-      defaultEditor = true;
-      extraPackages = with pkgs; [
-        tailwindcss-language-server
+    persistence."/persist/home" = {
+      directories = [
+        "/home/eduardo/xaviduds"
       ];
+      files = [
+      ];
+      allowOther = true;
     };
   };
 }
