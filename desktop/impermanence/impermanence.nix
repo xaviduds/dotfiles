@@ -32,6 +32,9 @@
   fileSystems."/persist".neededForBoot = true;
   environment.persistence."/persist/system" = {
     hideMounts = true;
-    directories = [ "/etc/NetworkManager/system-connections" ];
+    directories = [
+     "/var/lib/nixos"
+      "/var/lib/systemd/coredump" 
+"/etc/NetworkManager/system-connections" ];
   };
 }
