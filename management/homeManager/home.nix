@@ -10,7 +10,7 @@ in
     username = "eduardo";
     homeDirectory = "/home/eduardo";
     stateVersion = "24.11";
-    
+
     # Files to symlink using home.file
     file = {
       ".ignore".source = "${dotfilesDir}/editor/helix/ignore";
@@ -25,21 +25,22 @@ in
       # ".config/ghostty".source = "${dotfilesDir}/terminal/ghostty";
       ".config/rofi".source = "${dotfilesDir}/terminal/rofi";
     };
-  persistence."/persist/home" = {
-    directories = [
-      "lince-social"
-      ".config/lince"
-      "xaviduds"
-      ".config/nvim"
-      ".local/share/nvim"
-      ".config/nushell"
-      ".ssh"
-      ".mozilla"
-      # ".config/ghostty"
-    ];
-    files = [];
-    allowOther = true;
-};
+    persistence."/persist/home" = {
+      directories = [
+        ".local/share/Smart Code ltd"
+        ".local/share/Steam"
+        "lince-social"
+        ".config/lince"
+        "xaviduds"
+        ".config/nvim"
+        ".local/share/nvim"
+        ".config/nushell"
+        ".ssh"
+        ".mozilla"
+        # ".config/ghostty"
+      ];
+      files = [ ];
+      allowOther = true;
+    };
   };
 }
-
