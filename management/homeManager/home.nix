@@ -27,6 +27,7 @@ in
     };
     persistence."/persist/home" = {
       directories = [
+        ".config/discord"
         ".local/share/Smart Code ltd"
         ".local/share/Steam"
         "lince-social"

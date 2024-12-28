@@ -46,7 +46,7 @@ window#waybar {
   border-radius: 10px;
 }
 
-.modules-left > widget:first-child > #workspaces {
+.modules-left>widget:first-child>#workspaces {
   margin-left: 0;
 }
 
@@ -76,7 +76,7 @@ window#waybar {
 #power-profiles-daemon,
 #mpd {
   padding: 0 5px;
-  background-color: @mantle;
+  /* background-color: @mantle; */
 }
 
 #clock,
