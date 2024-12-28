@@ -18,6 +18,6 @@
     ./desktop/services/services.nix
     ./desktop/system/system.nix
     ./desktop/users/eduardo.nix
-    #./management/homeManager/homeManager.nix
+    ./management/homeManager/homeManager.nix
   ];
 }

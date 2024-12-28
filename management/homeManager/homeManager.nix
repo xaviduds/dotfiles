@@ -3,7 +3,7 @@
   home-manager = {
     extraSpecialArgs = { inherit inputs; };
     users = {
-      "eduardo" = import ./home.nix;
+      "eduardo" = import /home/eduardo/xaviduds/dotfiles/management/homeManager/home.nix;
     };
   };
 }

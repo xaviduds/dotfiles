@@ -7,7 +7,7 @@
     stateVersion = "24.11";
     persistence."/persist/home" = {
       directories = [
-        "/home/eduardo/xaviduds"
+        "lince-social"
       ];
       files = [
       ];

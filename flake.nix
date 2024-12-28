@@ -6,10 +6,10 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
     impermanence.url = "github:nix-community/impermanence";
-    # home-manager = {
-    #   url = "github:nix-community/home-manager";
-    #   inputs.nixpkgs.follows = "nixpkgs";
-    # };
+    home-manager = {
+      url = "github:nix-community/home-manager";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
     # ghostty = {
     # url = "github:ghostty-org/ghostty";
     # };
@@ -27,7 +27,7 @@
         modules = [
           # { environment.systemPackages = [ ghostty.packages.x86_64-linux.default ]; }
           ./configuration.nix
-          # inputs.home-manager.nixosModules.default
+          inputs.home-manager.nixosModules.default
           inputs.impermanence.nixosModules.impermanence
           inputs.disko.nixosModules.default
           (import ./management/disko.nix { device = "/dev/nvme0n1"; })
