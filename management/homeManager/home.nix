@@ -22,7 +22,7 @@ in
       ".config/hypr".source = "${dotfilesDir}/desktop/hypr";
       ".config/waybar".source = "${dotfilesDir}/desktop/waybar";
       ".config/starship.toml".source = "${dotfilesDir}/terminal/starship/starship.toml";
-      # ".config/ghostty".source = "${dotfilesDir}/terminal/ghostty";
+      ".config/ghostty".source = "${dotfilesDir}/terminal/ghostty";
       ".config/rofi".source = "${dotfilesDir}/terminal/rofi";
     };
     persistence."/persist/home" = {
@@ -38,7 +38,7 @@ in
         ".config/nushell"
         ".ssh"
         ".mozilla"
-        # ".config/ghostty"
+        ".config/ghostty"
       ];
       files = [ ];
       allowOther = true;
