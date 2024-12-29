@@ -15,7 +15,7 @@ sudo mv dotfiles/* /mnt/etc/nixos
 sudo mv /mnt/etc/nixos/hardware-configuration.nix /mnt/etc/nixos/desktop/hardware
 
 # Comment home.file
-sudo nano /mnt/persist/etc/nixos/management/homeManager/home/nix
+sudo nano /mnt/persist/etc/nixos/management/homeManager/home.nix
 
 sudo nixos-install --root /mnt --flake /mnt/etc/nixos#default --impure
 
