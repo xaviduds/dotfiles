@@ -9,6 +9,6 @@
       "networkmanager"
       "wheel"
     ];
-    shell = pkgs.nushell;
+    # shell = pkgs.nushell;
   };
 }
