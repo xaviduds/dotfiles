@@ -10,7 +10,7 @@ in
     username = "eduardo";
     homeDirectory = "/home/eduardo";
     stateVersion = "24.11";
-     file = {
+    file = {
       ".ignore".source = "${dotfilesDir}/editor/helix/ignore";
       ".bashrc".source = "${dotfilesDir}/terminal/bash/bashrc";
       ".gitconfig".source = "${dotfilesDir}/terminal/git/gitconfig";
@@ -24,16 +24,16 @@ in
     };
     persistence."/persist/home" = {
       directories = [
-        # ".local/share/Smart Code ltd"
+        ".local/share/Smart Code ltd"
         ".local/share/Steam"
-        # "lince-social"
-        # ".config/lince"
+        "lince-social"
+        ".config/lince"
         "xaviduds"
-        # ".config/nvim"
-        # ".local/share/nvim"
-        # ".config/nushell"
-        # ".ssh"
-        # ".mozilla"
+        ".config/nvim"
+        ".local/share/nvim"
+        ".config/nushell"
+        ".ssh"
+        ".mozilla"
       ];
       files = [ ];
       allowOther = true;
