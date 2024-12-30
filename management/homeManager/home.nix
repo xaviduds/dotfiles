@@ -10,9 +10,7 @@ in
     username = "eduardo";
     homeDirectory = "/home/eduardo";
     stateVersion = "24.11";
-
-    # Files to symlink using home.file
-    file = {
+     file = {
       ".ignore".source = "${dotfilesDir}/editor/helix/ignore";
       ".bashrc".source = "${dotfilesDir}/terminal/bash/bashrc";
       ".gitconfig".source = "${dotfilesDir}/terminal/git/gitconfig";
@@ -22,23 +20,20 @@ in
       ".config/hypr".source = "${dotfilesDir}/desktop/hypr";
       ".config/waybar".source = "${dotfilesDir}/desktop/waybar";
       ".config/starship.toml".source = "${dotfilesDir}/terminal/starship/starship.toml";
-      ".config/ghostty".source = "${dotfilesDir}/terminal/ghostty";
       ".config/rofi".source = "${dotfilesDir}/terminal/rofi";
     };
     persistence."/persist/home" = {
       directories = [
-        ".config/discord"
-        ".local/share/Smart Code ltd"
+        # ".local/share/Smart Code ltd"
         ".local/share/Steam"
-        "lince-social"
-        ".config/lince"
+        # "lince-social"
+        # ".config/lince"
         "xaviduds"
-        ".config/nvim"
-        ".local/share/nvim"
-        ".config/nushell"
-        ".ssh"
-        ".mozilla"
-        ".config/ghostty"
+        # ".config/nvim"
+        # ".local/share/nvim"
+        # ".config/nushell"
+        # ".ssh"
+        # ".mozilla"
       ];
       files = [ ];
       allowOther = true;

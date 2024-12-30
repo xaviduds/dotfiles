@@ -33,8 +33,6 @@
   environment.persistence."/persist/system" = {
     hideMounts = true;
     directories = [
-     "/var/lib/nixos"
-      "/var/lib/systemd/coredump" 
 "/etc/NetworkManager/system-connections" ];
   };
 }
