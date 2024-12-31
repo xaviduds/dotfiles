@@ -27,6 +27,7 @@
       gimp
       git
       gopls
+      graph-easy
       grim
       helix
       isort
@@ -67,6 +68,7 @@
       rustup
       slurp
       rofi-wayland
+      slides
       sonic-pi
       sql-formatter
       sqlfluff
@@ -83,6 +85,7 @@
       vscode-langservers-extracted
       waybar
       wl-clipboard
+      xonsh
       yazi
       yt-dlp
       zathura

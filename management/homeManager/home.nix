@@ -24,6 +24,8 @@ in
     };
     persistence."/persist/home" = {
       directories = [
+        ".config/Postman"
+        ".local/share/DBeaverData"
         ".local/share/Smart Code ltd"
         ".local/share/Steam"
         "lince-social"

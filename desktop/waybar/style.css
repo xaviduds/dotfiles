@@ -76,7 +76,6 @@ window#waybar {
 #power-profiles-daemon,
 #mpd {
   padding: 0 5px;
-  background-color: @mantle;
 }
 
 #clock,
