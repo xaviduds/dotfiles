@@ -55,7 +55,7 @@
     "tooltip-format-wifi": "{essid} ({signalStrength}%) ",
     "tooltip-format-ethernet": "{ifname} ",
     "tooltip-format-disconnected": "Disconnected",
-    "on-click": "xterm -e nmtui",
+    "on-click": "alacritty -e nmtui",
     "on-click-middle": "",
     "on-click-right": ""
   },
