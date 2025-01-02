@@ -10,3 +10,5 @@ alias n="nvim"
 alias d="cd Downloads && z"
 alias e="exit"
 shopt -s autocd
+
+# [ "$PWD" != "$HOME" ] && [ -z "$NU_ENV" ] && exec nu

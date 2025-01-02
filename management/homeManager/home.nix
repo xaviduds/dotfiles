@@ -36,6 +36,8 @@ in
         ".config/nushell"
         ".ssh"
         ".mozilla"
+        ".local/state/lazygit"
+        ".config/ghostty"
       ];
       files = [ ];
       allowOther = true;
