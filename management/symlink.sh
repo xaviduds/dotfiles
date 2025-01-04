@@ -1,16 +1,16 @@
 # #!/bin/bash
-#
-# DOTFILES_DIR="/home/eduardo/xaviduds/dotfiles"
-# CONFIG_DIR="/home/eduardo/.config"
-# HOME_DIR="/home/eduardo"
-#
-# # Ensure script exits on any error
-# # set -e
-#
-#
-# safe_sudo() {
-#     sudo "$@"
-# }
+
+DOTFILES_DIR="/home/eduardo/xaviduds/dotfiles"
+CONFIG_DIR="/home/eduardo/.config"
+HOME_DIR="/home/eduardo"
+
+# Ensure script exits on any error
+set -e
+
+
+safe_sudo() {
+    sudo "$@"
+}
 #
 # # Copy Alacritty configuration
 # mkdir -p "$CONFIG_DIR/alacritty"
@@ -48,8 +48,8 @@
 #
 # # Handle Neovim configuration
 # rm -rf "$CONFIG_DIR/nvim"
-# rm -rf "$HOME_DIR/nvim"
-# cp -r "$DOTFILES_DIR/editor/nvim/" "$HOME_DIR/nvim"
+# safe_sudo rm -rf "$HOME_DIR/nvim"
+# safe_sudo cp -r "$DOTFILES_DIR/editor/nvim/" "$HOME_DIR/nvim"
 # safe_sudo mv "$HOME_DIR/nvim" "$CONFIG_DIR/nvim"
 #
 # # Nushell

@@ -15,29 +15,31 @@ in
       ".bashrc".source = "${dotfilesDir}/terminal/bash/bashrc";
       ".gitconfig".source = "${dotfilesDir}/terminal/git/gitconfig";
       ".config/alacritty".source = "${dotfilesDir}/terminal/alacritty";
-      ".config/emacs".source = "${dotfilesDir}/editor/emacs";
-      ".config/helix".source = "${dotfilesDir}/editor/helix";
-      ".config/hypr".source = "${dotfilesDir}/desktop/hypr";
-      ".config/waybar".source = "${dotfilesDir}/desktop/waybar";
+      # ".config/emacs".source = "${dotfilesDir}/editor/emacs";
+      # ".config/helix".source = "${dotfilesDir}/editor/helix";
+      # ".config/hypr".source = "${dotfilesDir}/desktop/hypr";
+      # ".config/waybar".source = "${dotfilesDir}/desktop/waybar";
       ".config/starship.toml".source = "${dotfilesDir}/terminal/starship/starship.toml";
-      ".config/rofi".source = "${dotfilesDir}/terminal/rofi";
+      # ".config/rofi".source = "${dotfilesDir}/terminal/rofi";
     };
     persistence."/persist/home" = {
       directories = [
+        ".config/chromium"
+        ".config/discord"
+        ".config/ghostty"
+        ".config/lince"
+        ".config/nushell"
+        ".config/nvim"
         ".config/Postman"
         ".local/share/DBeaverData"
-        ".local/share/Smart Code ltd"
-        ".local/share/Steam"
-        "lince-social"
-        ".config/lince"
-        "xaviduds"
-        ".config/nvim"
         ".local/share/nvim"
-        ".config/nushell"
-        ".ssh"
-        ".mozilla"
+        ".local/share/Smart Code ltd"
+        # ".local/share/Steam"
         ".local/state/lazygit"
-        ".config/ghostty"
+        ".mozilla"
+        ".ssh"
+        "lince-social"
+        "xaviduds"
       ];
       files = [ ];
       allowOther = true;

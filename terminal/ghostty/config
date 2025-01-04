@@ -42,3 +42,17 @@ keybind = alt+7=goto_tab:7
 keybind = alt+8=goto_tab:8
 keybind = alt+9=goto_tab:9
 keybind = alt+0=goto_tab:10
+
+keybind = ctrl+alt+h=unbind
+keybind = ctrl+alt+j=unbind
+keybind = ctrl+alt+k=unbind
+keybind = ctrl+alt+l=unbind
+keybind = ctrl+alt+p=unbind
+keybind = ctrl+alt+n=unbind
+
+keybind = ctrl+alt+h=goto_split:left
+keybind = ctrl+alt+j=goto_split:bottom
+keybind = ctrl+alt+k=goto_split:top
+keybind = ctrl+alt+l=goto_split:right
+keybind = ctrl+alt+p=goto_split:previous
+keybind = ctrl+alt+n=goto_split:next
