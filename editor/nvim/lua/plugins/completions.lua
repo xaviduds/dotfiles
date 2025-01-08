@@ -29,7 +29,6 @@ return {
 				mapping = cmp.mapping.preset.insert({
 					["<C-b>"] = cmp.mapping.scroll_docs(-4),
 					["<C-f>"] = cmp.mapping.scroll_docs(4),
-					-- ["<C-Space>"] = cmp.mapping.complete(),
 					["<C-e>"] = cmp.mapping.abort(),
 					["<CR>"] = cmp.mapping({
 						i = function(fallback)
@@ -46,10 +45,37 @@ return {
 				sources = cmp.config.sources({
 					{ name = "nvim_lsp" },
 					{ name = "luasnip" },
+					{ name = "vim-dadbod-completion" }, -- Add dadbod completion
 				}, {
 					{ name = "buffer" },
 				}),
 			})
+
+			-- Enable dadbod-completion specifically for SQL files
+			vim.api.nvim_create_autocmd("FileType", {
+				pattern = { "sql", "mysql", "plsql" },
+				callback = function()
+					cmp.setup.buffer({
+						sources = cmp.config.sources({
+							{ name = "vim-dadbod-completion" },
+						}, {
+							{ name = "buffer" },
+						}),
+					})
+				end,
+			})
 		end,
 	},
+	{
+		"tpope/vim-dadbod", -- Core database plugin
+	},
+	{
+		"kristijanhusak/vim-dadbod-ui", -- UI for database exploration
+		dependencies = { "tpope/vim-dadbod" },
+	},
+	{
+		"kristijanhusak/vim-dadbod-completion", -- Completion source for SQL
+		dependencies = { "tpope/vim-dadbod" },
+	},
 }
+

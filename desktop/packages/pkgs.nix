@@ -31,6 +31,7 @@
       grim
       helix
       isort
+      jq
       kitty
       lua-language-server
       luajitPackages.luarocks

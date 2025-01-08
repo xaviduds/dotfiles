@@ -9,7 +9,7 @@ alias co = n ~/.config
 alias dt = n ~/xaviduds/dotfiles
 alias l = n ~/lince-social/lince
 alias d = n ~/Downloads
-def symlink [] { rm -rf ~/.config/nvim/* | cp -r ~/xaviduds/dotfiles/editor/nvim/* ~/.config/nvim/ | rm -rf ~/.config/nushell/* | cp -r ~/xaviduds/dotfiles/terminal/nushell/* ~/.config/nushell/  }
+def symlink [] { rm -rf ~/.config/nvim/* | cp -r ~/xaviduds/dotfiles/editor/nvim/* ~/.config/nvim/ | rm -rf ~/.config/nushell/* | cp -r ~/xaviduds/dotfiles/terminal/nushell/* ~/.config/nushell/ | bash ~/xaviduds/dotfiles/management/symlink.sh }
 alias nsd = nix-shell ~/lince-social/dev/lspeace.nix
 
 source ~/.config/nushell/env.nu

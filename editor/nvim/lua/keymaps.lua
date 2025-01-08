@@ -19,7 +19,6 @@ vim.keymap.set("n", "<C-S-Tab>", ":bprev<CR>", {})
 vim.keymap.set("n", "<A-d>", ":bdelete<CR>", {})
 vim.keymap.set("n", "<C-'>", ":ToggleTerm<CR>", {})
 vim.keymap.set("n", "%", "ggVG<leader>y", {})
--- vim.keymap.set("n", "<C-w>V",)
 
 vim.keymap.set("n", "<leader>st", function()
 	vim.cmd.vnew()
@@ -29,3 +28,35 @@ vim.keymap.set("n", "<leader>st", function()
 end)
 
 vim.keymap.set("n", "gp", "<cmd>lua require('goto-preview').goto_preview_definition()<CR>", { noremap = true })
+
+vim.keymap.set("n", "<Leader>rf", function()
+	local filetype = vim.bo.filetype
+	local filename = vim.fn.expand("%:p")
+
+	local commands = {
+		python = "python " .. filename,
+		go = "go run " .. filename,
+		lua = "lua " .. filename,
+		javascript = "node " .. filename,
+		typescript = "ts-node " .. filename,
+		sh = "bash " .. filename,
+	}
+
+	local cmd = commands[filetype]
+
+	if cmd then
+		local output = vim.fn.system(cmd)
+
+		if vim.v.shell_error ~= 0 then
+			require("noice").notify("Error:\n" .. output, "error")
+		else
+			require("noice").notify("Success:\n" .. output, "info")
+		end
+	else
+		require("noice").notify("No run command defined for filetype: " .. filetype, "warn")
+	end
+end, { noremap = true, silent = true, desc = "Run current file" })
+
+vim.keymap.set("n", "<Leader>rr", "<:Rest run<CR>", { noremap = true, silent = true })
+-- vim.keymap.set("n", "<Leader>rp", "<:Rest<CR>", { noremap = true, silent = true })
+vim.keymap.set("n", "<Leader>rl", "<:Rest last<CR>", { noremap = true, silent = true })

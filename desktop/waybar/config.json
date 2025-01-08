@@ -4,7 +4,11 @@
   "width": 1900,
   "margin-top": 10,
   "font": "JetBrainsMono Nerd Font 10",
-  "modules-left": ["hyprland/workspaces", "tray", "privacy"],
+  "modules-left": [
+    "hyprland/workspaces",
+    "tray",
+    "privacy"
+  ],
   "modules-center": [],
   "modules-right": [
     "custom/weather_icon",
@@ -113,7 +117,14 @@
       }
     ]
   },
-  "custom/microphone": {},
+  "custom/microphone": {
+    "interval": 1,
+    "exec": "wpctl get-volume @DEFAULT_SOURCE@ | awk '{print $2}'",
+    "format": "🎙️ {} ",
+    "on-click": "wpctl set-volume -l 1 @DEFAULT_SOURCE@ 0.15",
+    "on-scroll-up": "wpctl set-volume -l 1 @DEFAULT_SOURCE@ 0.01+",
+    "on-scroll-down": "wpctl set-volume -l 1 @DEFAULT_SOURCE@ 0.01-"
+  },
   "pulseaudio": {
     "format": "   {volume}%"
   },
@@ -134,5 +145,7 @@
   },
   "scroll-step": 1,
   "on-click": "pavucontrol",
-  "ignored-sinks": ["Easy Effects Sink"]
+  "ignored-sinks": [
+    "Easy Effects Sink"
+  ]
 }
