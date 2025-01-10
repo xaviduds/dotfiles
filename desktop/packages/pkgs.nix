@@ -24,6 +24,7 @@
       fuzzel
       fzf
       gcc
+      ghostty
       gimp
       git
       gopls

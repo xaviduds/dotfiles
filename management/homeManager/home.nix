@@ -39,6 +39,7 @@ in
         ".mozilla"
         ".ssh"
         "lince-social"
+        "other"
         "xaviduds"
       ];
       files = [ ];

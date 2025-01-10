@@ -13,3 +13,5 @@ remover espaço entre itens de karma, c22, c34, vira c22,c34
 ter um mapeamento de colunas, tu pode editar o schema da lince, mas quando for fazer trocas ter um mapeamento das que tu criou e das padrões, tipo record head default mas tu criou record title, quando for pingar pros outros tu pinga assinalando como em uma API? o que tu tem e o que tu vai mandar como, nesse caso em head.
 
 add aviso de tasks que falharam em um log
+
+Add logger, n precisar fazer printf
