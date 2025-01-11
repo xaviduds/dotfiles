@@ -28,6 +28,7 @@
       wireplumber.enable = true;
     };
     displayManager = {
+      theme = "catppuccin-mocha";
       sddm = {
         enable = true;
         wayland.enable = true;

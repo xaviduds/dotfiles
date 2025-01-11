@@ -9,6 +9,13 @@
       astro-language-server
       brightnessctl
       carapace
+      (catppuccin-sddm.override {
+        flavor = "mocha";
+        font = "Noto Sans";
+        fontSize = "9";
+        background = "${./wallpaper.png}";
+        loginBackground = true;
+      })
       chromium
       # clang
       # coreutils
@@ -57,6 +64,7 @@
       # nushellPlugins.highlight
       # nushellPlugins.gstat
       # nushellPlugins.formats
+      openssh
       openssl
       # pgformatter
       pnpm
