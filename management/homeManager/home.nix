@@ -15,32 +15,32 @@ in
       ".bashrc".source = "${dotfilesDir}/terminal/bash/bashrc";
       ".gitconfig".source = "${dotfilesDir}/terminal/git/gitconfig";
       ".config/starship.toml".source = "${dotfilesDir}/terminal/starship/starship.toml";
+      ".config/alacritty".source = "${dotfilesDir}/terminal/alacritty";
+      ".config/rofi".source = "${dotfilesDir}/terminal/rofi";
+      ".config/emacs".source = "${dotfilesDir}/editor/emacs";
+      ".config/helix".source = "${dotfilesDir}/editor/helix";
+      ".config/waybar".source = "${dotfilesDir}/desktop/waybar";
+      ".config/ghostty".source = "${dotfilesDir}/terminal/ghostty";
+      ".config/hypr".source = "${dotfilesDir}/desktop/hypr";
     };
     persistence."/persist/home" = {
       directories = [
-        ".config/alacritty"
-        ".config/rofi"
-        ".config/emacs"
-        ".config/helix"
-        ".config/hypr"
-        ".config/waybar"
         ".config/chromium"
         ".config/discord"
-        ".config/ghostty"
         ".config/lince"
         ".config/nushell"
         ".config/nvim"
-        ".config/Postman"
-        ".local/share/DBeaverData"
         ".local/share/nvim"
         ".local/share/Smart Code ltd"
-        # ".local/share/Steam"
         ".local/state/lazygit"
         ".mozilla"
         ".ssh"
         "lince-social"
         "other"
         "xaviduds"
+        # ".config/Postman"
+        # ".local/share/DBeaverData"
+        # ".local/share/Steam"
       ];
       files = [ ];
       allowOther = true;

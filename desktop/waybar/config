@@ -1,0 +1,151 @@
+{
+  "layer": "top",
+  "position": "top",
+  "width": 1900,
+  "margin-top": 10,
+  "font": "JetBrainsMono Nerd Font 10",
+  "modules-left": [
+    "hyprland/workspaces",
+    "tray",
+    "privacy"
+  ],
+  "modules-center": [],
+  "modules-right": [
+    "network",
+    "custom/weather_icon",
+    "custom/weather",
+    "backlight",
+    "backlight/slider",
+    "custom/microphone",
+    "pulseaudio",
+    "pulseaudio/slider",
+    "temperature",
+    "cpu",
+    "memory",
+    "disk",
+    "battery",
+    "clock"
+  ],
+  "backlight/slider": {
+    "min": 5,
+    "max": 100,
+    "rotate": 0,
+    "device": "intel_backlight",
+    "scroll-step": 1
+  },
+  "backlight": {
+    "format": "   {percent}%"
+  },
+  "clock": {
+    "format": "   {:%Y-%m-%d %A | %H:%M:%S}",
+    "interval": 1,
+    "tooltip-format": "\n<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+    "calendar-weeks-pos": "right",
+    "today-format": "<span color='#7645AD'><b><u>{}</u></b></span>",
+    "format-calendar": "<span color='#aeaeae'><b>{}</b></span>",
+    "format-calendar-weeks": "<span color='#aeaeae'><b>W{:%V}</b></span>",
+    "format-calendar-weekdays": "<span color='#aeaeae'><b>{}</b></span>"
+  },
+  "battery": {
+    "interval": 60,
+    "format": "   {capacity}%"
+  },
+  "network": {
+    "interval": 3,
+    "format": "{ifname}",
+    "format-wifi": "↑ {bandwidthUpBytes} ↓ {bandwidthDownBits}    {essid} ({signalStrength}%)",
+    "format-ethernet": "{ipaddr}/{cidr} 󰊗",
+    "tooltip-format": "{ifname} via {gwaddr} 󰊗",
+    "tooltip-format-wifi": "{essid} ({signalStrength}%) ",
+    "tooltip-format-ethernet": "{ifname} ",
+    "tooltip-format-disconnected": "Disconnected",
+    "on-click": "alacritty -e nmtui",
+    "on-click-middle": "",
+    "on-click-right": ""
+  },
+  "hyprland/workspaces": {
+    "format": "{icon}   {id}",
+    "format-icons": {
+      "active": "",
+      "default": ""
+    }
+  },
+  "temperature": {
+    "thermal-zone": 2,
+    "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
+    "critical-threshold": 80,
+    "format": " {temperatureC}°C",
+    "format-critical": "AAAAAAAAAAAAA {temperatureC}°C",
+    "interval": 1
+  },
+  "cpu": {
+    "interval": 1,
+    "format": "  {usage:>2}%",
+    "min-length": 6
+  },
+  "memory": {
+    "format": "  {used:>2.0f}/{total:.0f}",
+    "tooltip": false,
+    "interval": 1
+  },
+  "disk": {
+    "format": "  {specific_used:>3.0f}/{specific_total:.0f}",
+    "unit": "GB",
+    "path": "/",
+    "tooltip": false,
+    "interval": 1
+  },
+  "privacy": {
+    "icon-spacing": 4,
+    "icon-size": 18,
+    "transition-duration": 250,
+    "modules": [
+      {
+        "type": "screenshare",
+        "tooltip": true,
+        "tooltip-icon-size": 24
+      },
+      {
+        "type": "audio-out",
+        "tooltip": true,
+        "tooltip-icon-size": 24
+      },
+      {
+        "type": "audio-in",
+        "tooltip": true,
+        "tooltip-icon-size": 24
+      }
+    ]
+  },
+  "custom/microphone": {
+    "interval": 1,
+    "exec": "wpctl get-volume @DEFAULT_SOURCE@ | awk '{print $2}'",
+    "format": "🎙️ {} ",
+    "on-click": "wpctl set-volume -l 1 @DEFAULT_SOURCE@ 0.15",
+    "on-scroll-up": "wpctl set-volume -l 1 @DEFAULT_SOURCE@ 0.01+",
+    "on-scroll-down": "wpctl set-volume -l 1 @DEFAULT_SOURCE@ 0.01-"
+  },
+  "pulseaudio": {
+    "format": "   {volume}%"
+  },
+  "tray": {
+    "icon-size": 16
+  },
+  "custom/weather_icon": {
+    "format": "  "
+  },
+  "custom/weather": {
+    "exec": "curl wttr.in/?format='%C+%h+%t+%T'",
+    "interval": 3600
+  },
+  "pulseaudio/slider": {
+    "min": 0,
+    "max": 100,
+    "orientation": "horizontal"
+  },
+  "scroll-step": 1,
+  "on-click": "pavucontrol",
+  "ignored-sinks": [
+    "Easy Effects Sink"
+  ]
+}
