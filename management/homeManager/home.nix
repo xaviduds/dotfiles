@@ -38,8 +38,8 @@ in
         "lince-social"
         "other"
         "xaviduds"
-        # ".config/Postman"
-        # ".local/share/DBeaverData"
+        ".config/Postman"
+        ".local/share/DBeaverData"
         # ".local/share/Steam"
       ];
       files = [ ];

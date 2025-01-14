@@ -4,9 +4,11 @@
 pkgs.mkShell {
   buildInputs = with pkgs; [
     # pkgs
+    nodejs_23
+    go
   ];
   shellHook = ''
-    cd ${toString ./.}
+    # cd ${toString ./.}
     nu
   '';
 }

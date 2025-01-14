@@ -61,7 +61,7 @@
       openssh
       openssl
       # pgformatter
-      pnpm
+      # pnpm
       # postgres-lsp
       postman
       prisma
@@ -87,6 +87,7 @@
       ueberzugpp
       unzip
       vscode-langservers-extracted
+      wakeonlan
       waybar
       wl-clipboard
       xonsh

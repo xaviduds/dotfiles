@@ -4,9 +4,12 @@
 pkgs.mkShell {
   buildInputs = with pkgs; [
     # pkgs
+    nodejs_23
+    pnpm
+    go
   ];
   shellHook = ''
-    cd ${toString ./.}
+    # cd ${toString ./.}
     nvim ${toString ./.}
   '';
 }

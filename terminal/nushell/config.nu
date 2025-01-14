@@ -9,9 +9,11 @@ alias co = n ~/.config
 alias dt = n ~/xaviduds/dotfiles
 alias l = n ~/lince-social/lince
 alias d = n ~/Downloads
-def symlink [] { rm -rf ~/.config/nvim/* | cp -r ~/xaviduds/dotfiles/editor/nvim/* ~/.config/nvim/ | rm -rf ~/.config/nushell/* | cp -r ~/xaviduds/dotfiles/terminal/nushell/* ~/.config/nushell/ | sudo bash ~/xaviduds/dotfiles/management/symlink.sh }
+alias symlink = sudo bash ~/xaviduds/dotfiles/management/symlink.sh
 alias sim = sudo bash ~/xaviduds/dotfiles/management/symlink.sh
 alias nsd = nix-shell ~/lince-social/dev/lspeace.nix
+def reseedLince [] {prisma db push --force-reset; prisma db seed; npm run dev}
+
 
 source ~/.config/nushell/env.nu
 source ~/.cache/carapace/init.nu
