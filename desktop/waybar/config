@@ -1,8 +1,7 @@
 {
   "layer": "top",
-  "position": "top",
-  "width": 1900,
-  "margin-top": 10,
+  "position": "bottom",
+  "height": 10,
   "font": "JetBrainsMono Nerd Font 10",
   "modules-left": [
     "hyprland/workspaces",
@@ -27,7 +26,7 @@
     "clock"
   ],
   "backlight/slider": {
-    "min": 5,
+    "min": 1,
     "max": 100,
     "rotate": 0,
     "device": "intel_backlight",
@@ -97,23 +96,23 @@
   },
   "privacy": {
     "icon-spacing": 4,
-    "icon-size": 18,
+    "icon-size": 12,
     "transition-duration": 250,
     "modules": [
       {
         "type": "screenshare",
         "tooltip": true,
-        "tooltip-icon-size": 24
+        "tooltip-icon-size": 12
       },
       {
         "type": "audio-out",
         "tooltip": true,
-        "tooltip-icon-size": 24
+        "tooltip-icon-size": 12
       },
       {
         "type": "audio-in",
         "tooltip": true,
-        "tooltip-icon-size": 24
+        "tooltip-icon-size": 12
       }
     ]
   },
@@ -129,7 +128,7 @@
     "format": "   {volume}%"
   },
   "tray": {
-    "icon-size": 16
+    "icon-size": 12
   },
   "custom/weather_icon": {
     "format": "  "

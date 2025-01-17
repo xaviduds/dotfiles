@@ -33,17 +33,14 @@
     Helvetica,
     Arial,
     sans-serif;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 window#waybar {
+  margin: 0;
+  padding: 0;
   background: @base;
   color: @text;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-bottom: 10px;
-  margin-top: 0px;
-  border-radius: 10px;
 }
 
 .modules-left>widget:first-child>#workspaces {
@@ -52,11 +49,11 @@ window#waybar {
 
 #window,
 #workspaces {
-  margin: 0 4px;
+  margin: 0 3px;
 }
 
 #workspaces button {
-  padding: 0 5px;
+  padding: 0 3px;
   background-color: transparent;
   color: #ffffff;
 }
@@ -75,13 +72,10 @@ window#waybar {
 #scratchpad,
 #power-profiles-daemon,
 #mpd,
-#custom-microphone {
-  padding: 0 5px;
-}
-
-#clock,
-#privacy {
-  padding: 0 10px;
+#custom-microphone,
+#privacy,
+#clock {
+  padding: 0 3px;
 }
 
 #backlight-slider slider,

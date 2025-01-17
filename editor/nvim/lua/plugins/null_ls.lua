@@ -14,6 +14,7 @@ return {
 				-- null_ls.builtins.formatting.black,
 				null_ls.builtins.formatting.nixfmt,
 				null_ls.builtins.formatting.gofmt,
+				null_ls.builtins.diagnostics.golangci_lint,
 				-- null_ls.builtins.formatting.pg_format,
 				-- null_ls.builtins.diagnostics.eslint,
 				-- null_ls.builtins.formatting.sqlfluff.with({

@@ -6,9 +6,10 @@ pkgs.mkShell {
     # pkgs
     nodejs_23
     go
+    zig
   ];
   shellHook = ''
-    # cd ${toString ./.}
+    cd ${toString ./.}
     nu
   '';
 }

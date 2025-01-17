@@ -7,7 +7,6 @@ alias ns = nix-shell
 alias nl = nix-shell ~/lince-social/lince
 alias co = n ~/.config
 alias dt = n ~/xaviduds/dotfiles
-alias l = n ~/lince-social/lince
 alias d = n ~/Downloads
 alias symlink = sudo bash ~/xaviduds/dotfiles/management/symlink.sh
 alias sim = sudo bash ~/xaviduds/dotfiles/management/symlink.sh

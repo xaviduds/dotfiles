@@ -16,7 +16,8 @@ cat /home/eduardo/xaviduds/dotfiles/terminal/alacritty/alacritty.toml > /home/ed
 rm -rf /home/eduardo/.config/emacs
 mkdir -p /home/eduardo/.config/emacs
 cat /home/eduardo/xaviduds/dotfiles/editor/emacs/init.el > /home/eduardo/.config/emacs/init.el
-cat /home/eduardo/xaviduds/dotfiles/editor/emacs/config.org > /home/eduardo/emacs/config.org
+cat /home/eduardo/xaviduds/dotfiles/editor/emacs/config.org > /home/eduardo/.config/emacs/config.org
+
 
 # Ghostty
 rm -rf /home/eduardo/.config/ghostty
@@ -42,11 +43,8 @@ cat /home/eduardo/xaviduds/dotfiles/editor/helix/config.toml > /home/eduardo/.co
 mkdir -p /home/eduardo/.config/lince
 
 # Neovim
-# rm -rf /home/eduardo/.config/nvim
-# mkdir -p /home/eduardo/.config/nvim
-# cat /home/eduardo/xaviduds/dotfiles/editor/nvim/init.lua > /home/eduardo/.config/nvim/init.lua
-# rm -rf /home/eduardo/.config/nvim/lua
-# cp -r /home/eduardo/xaviduds/dotfiles/editor/nvim/lua /home/eduardo/.config/nvim
+rm -rf /home/eduardo/.config/nvim/*
+cp -r /home/eduardo/xaviduds/dotfiles/editor/nvim/* /home/eduardo/.config/nvim
 
 # # Nushell
 # rm -rf /home/eduardo/.config/nushell
@@ -67,7 +65,7 @@ cat /home/eduardo/xaviduds/dotfiles/terminal/rofi/wallSelect.rasi > /home/eduard
 # Waybar
 rm -rf /home/eduardo/.config/waybar
 mkdir -p /home/eduardo/.config/waybar
-cat /home/eduardo/xaviduds/dotfiles/desktop/waybar/config.json > /home/eduardo/.config/waybar/config
+cat /home/eduardo/xaviduds/dotfiles/desktop/waybar/config > /home/eduardo/.config/waybar/config
 cat /home/eduardo/xaviduds/dotfiles/desktop/waybar/style.css > /home/eduardo/.config/waybar/style.css
 
 # chown -R eduardo:users /home/eduardo/.config

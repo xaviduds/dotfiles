@@ -8,6 +8,7 @@
       alacritty
       astro-language-server
       brightnessctl
+      btop
       carapace
       # catppuccin-sddm
       chromium
@@ -28,6 +29,7 @@
       ghostty
       gimp
       git
+      golangci-lint
       gopls
       graph-easy
       grim

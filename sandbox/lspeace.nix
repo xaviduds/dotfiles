@@ -7,9 +7,13 @@ pkgs.mkShell {
     nodejs_23
     pnpm
     go
+    rustc
+    cargo
+    zig
   ];
+  LD_LIBRARY_PATH = "${pkgs.rustup}/lib";
   shellHook = ''
-    # cd ${toString ./.}
-    nvim ${toString ./.}
+    cd ${toString ./.}
+    nvim
   '';
 }
