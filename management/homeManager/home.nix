@@ -20,11 +20,12 @@ in
       ".config/emacs".source = "${dotfilesDir}/editor/emacs";
       ".config/helix".source = "${dotfilesDir}/editor/helix";
       ".config/waybar".source = "${dotfilesDir}/desktop/waybar";
-      ".config/ghostty".source = "${dotfilesDir}/terminal/ghostty";
+      # ".config/ghostty".source = "${dotfilesDir}/terminal/ghostty";
       ".config/hypr".source = "${dotfilesDir}/desktop/hypr";
     };
     persistence."/persist/home" = {
       directories = [
+        ".config/ghostty"
         ".config/chromium"
         ".config/discord"
         ".config/lince"

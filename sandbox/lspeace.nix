@@ -10,6 +10,7 @@ pkgs.mkShell {
     rustc
     cargo
     zig
+    eslint
   ];
   LD_LIBRARY_PATH = "${pkgs.rustup}/lib";
   shellHook = ''
