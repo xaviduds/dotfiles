@@ -9,42 +9,6 @@
  italic = { family = 'JetBrainsMono Nerd Font' }
  bold_italic = { family = 'JetBrainsMono Nerd Font' }
 
- # [colors.primary]
- # background = '#000000'
- # foreground = '#ffffff'
- #
- # [colors.normal]
- # black = '#ffffff'
- # white = '#ffffff'
- # red = '#ffffff'
- # green = '#ffffff'
- # yellow = '#ffffff'
- # blue = '#ffffff'
- # magenta = '#ffffff'
- # cyan = '#ffffff'
- #
- # [colors.bright]
- # black = '#ffffff'
- # white = '#ffffff'
- # red = '#ffffff'
- # green = '#ffffff'
- # yellow = '#ffffff'
- # blue = '#ffffff'
- # magenta = '#ffffff'
- # cyan = '#ffffff'
- #
- # [colors.dim]
- # black = '#ffffff'
- # white = '#ffffff'
- # red = '#ffffff'
- # green = '#ffffff'
- # yellow = '#ffffff'
- # blue = '#ffffff'
- # magenta = '#ffffff'
- # cyan = '#ffffff'
-
-######################################################### Mocha
-
 [colors.primary]
 background = "#1e1e2e"
 foreground = "#cdd6f4"
