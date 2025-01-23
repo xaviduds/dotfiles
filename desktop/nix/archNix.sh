@@ -1,36 +1,34 @@
 #!/usr/bin/env bash
 
+# Install Nix
 yay -S nix
-sudo systemctl enable nix-daemon.service
+sudo systemctl enable --now nix-daemon.service
 sudo gpasswd -a $USER nix-users
 
-# Check if the file is provided
-if [[ -z "$1" ]]; then
-  echo "Usage: $0 <file>"
-  exit 1
-fi
+# Add the nixpkgs channel
+nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
+nix-channel --update
 
-# Assign the file to a variable
-file="$1"
+# Set the NIX_PATH environment variable
+export NIX_PATH=nixpkgs=$HOME/.nix-defexpr/channels/nixpkgs
 
-# Check if the file exists
-if [[ ! -f "$file" ]]; then
-  echo "Error: File '$file' not found!"
-  exit 1
+# Hardcoded path to the Nix configuration file
+nix_conf="/etc/nix/nix.conf"
+
+# Ensure the file exists
+if [[ ! -f "$nix_conf" ]]; then
+  echo "Creating $nix_conf..."
+  sudo touch "$nix_conf"
 fi
 
 # Create a temporary file
 temp_file=$(mktemp)
 
 # Process the file
-grep -v "max-jobs" "$file" > "$temp_file" # Remove lines containing 'max-jobs'
-echo "max-jobs = auto" >> "$temp_file"      # Append 'max-jobs=auto'
+grep -v "max-jobs" "$nix_conf" > "$temp_file" # Remove lines containing 'max-jobs'
+echo "max-jobs = auto" >> "$temp_file"        # Append 'max-jobs=auto'
 
 # Replace the original file with the modified file
-mv "$temp_file" "$file"
+sudo mv "$temp_file" "$nix_conf"
 
-echo "File updated successfully!"
-
-nix-channel --add https://nixos.org/channels/nixpkgs-unstable
-nix-channel --update
-
+echo "Nix configuration file updated successfully: $nix_conf"

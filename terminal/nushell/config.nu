@@ -10,3 +10,6 @@ alias ns = nix-shell
 alias nl = nix-shell ~/lince-social/lince
 
 def reseedLince [] {prisma db push --force-reset; prisma db seed; npm run dev}
+
+$env.BUN_INSTALL = $"($env.HOME)/.bun"
+$env.PATH = ($env.PATH | append $"($env.BUN_INSTALL)/bin")

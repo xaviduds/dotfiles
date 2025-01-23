@@ -1,74 +1,69 @@
-# #!/bin/bash
-#
-# yay -Syu
-#
-# # Define the file name
-# FILE="/home/eduardo/xaviduds/dotfiles/desktop/packages/archPackages.txt"
-#
-# # Check if the file exists
-# if [[ ! -f "$FILE" ]]; then
-#     echo "Error: $FILE not found!"
-#     exit 1
-# fi
-#
-# # Sort the file and process each line
-# echo "Sorted packages:"
-# sort "$FILE" | while IFS= read -r package; do
-#     # Skip empty lines
-#     if [[ -z "$package" ]]; then
-#         continue
-#     fi
-#
-#     # Print the package name
-#     echo "$package"
-# done
 #!/bin/bash
 
-FILE="archPackages.txt"
+FILE="/home/eduardo/xaviduds/dotfiles/desktop/packages/archPackages.txt"
 
-# Function to display usage
-usage() {
-    echo "Usage: $0 [options]"
-    echo "Options:"
-    echo "  -a, --add <package>    Add a package to the list"
-    echo "  -r, --remove <package> Remove a package from the list"
-    echo "  -l, --list             List all packages in the file"
-    echo "  -i, --install          Install all packages listed in the file"
-    echo "  -c, --check            Check explicitly installed packages and update the file"
-    echo "  -d, --delete-orphans   Delete orphan packages"
-    echo "  -h, --help             Show this help message"
-    exit 1
+# Function to tidy the file (sort and remove duplicates)
+tidy_file() {
+    if [[ -f "$FILE" ]]; then
+        sort -u "$FILE" -o "$FILE"
+    fi
 }
 
-# Function to add a package
+# Function to display the menu
+show_menu() {
+    echo "===================================="
+    echo " Arch Linux Package Manager Helper  "
+    echo "===================================="
+    echo "a. Add a package"
+    echo "r. Remove a package"
+    echo "i. Install all packages"
+    echo "0. Exit"
+    echo "===================================="
+}
+
+# Function to add a package (or multiple packages)
 add_package() {
-    local package="$1"
-    if grep -Fxq "$package" "$FILE"; then
-        echo "Package '$package' already exists in the list."
-    else
-        echo "$package" >> "$FILE"
-        echo "Package '$package' added to the list."
-    fi
+    echo "Enter the package name(s) to add (separated by spaces):"
+    read -r package_input
+
+    # Split the input into individual packages
+    IFS=' ' read -r -a packages <<< "$package_input"
+
+    for package in "${packages[@]}"; do
+        if grep -Fxq "$package" "$FILE"; then
+            echo "Package '$package' already exists in the list."
+        else
+            echo "$package" >> "$FILE"
+            echo "Package '$package' added to the list."
+        fi
+    done
+    sleep 2
 }
 
-# Function to remove a package
 remove_package() {
-    local package="$1"
-    if grep -Fxq "$package" "$FILE"; then
-        sed -i "/^$package$/d" "$FILE"
-        echo "Package '$package' removed from the list."
-    else
-        echo "Package '$package' not found in the list."
-    fi
+    echo "Enter the package name(s) to remove (separated by spaces):"
+    read -r package_input
+
+    # Split the input into individual packages
+    IFS=' ' read -r -a packages <<< "$package_input"
+
+    for package in "${packages[@]}"; do
+        if grep -Fxq "$package" "$FILE"; then
+            sed -i "/^$package$/d" "$FILE"
+            echo "Package '$package' removed from the list."
+            yay -Rs "$package"
+        else
+            echo "Package '$package' not found in the list."
+        fi
+    done
+    sleep 2
 }
 
 # Function to list packages
 list_packages() {
     if [[ -f "$FILE" ]]; then
-        echo "Packages in $FILE:"
-        sort "$FILE" | while IFS= read -r package; do
-            echo "- $package"
-        done
+        sorted_packages=$(sort "$FILE" | tr '\n' ' ')
+        echo "$sorted_packages"
     else
         echo "No packages found in $FILE."
     fi
@@ -78,73 +73,53 @@ list_packages() {
 install_packages() {
     if [[ ! -f "$FILE" ]]; then
         echo "Error: $FILE not found!"
-        exit 1
+        sleep 2
+        return
     fi
 
     echo "Installing packages from $FILE..."
-    sudo pacman -S --needed - < "$FILE"
+    yay -S --noconfirm --needed - < "$FILE"
+    echo "Press enter to continue..."
+    read -r
 }
 
-# Function to check explicitly installed packages and update the file
+# Function to check explicitly installed packages
 check_explicit_packages() {
     echo "Checking explicitly installed packages..."
-    pacman -Qqe > "$FILE"
-    echo "Explicitly installed packages have been saved to $FILE."
+    pacman -Qqe >> "$FILE"  # Append instead of overwrite
 }
 
 # Function to delete orphan packages
 delete_orphans() {
     echo "Deleting orphan packages..."
     sudo pacman -Rns $(pacman -Qdtq)
-    echo "Orphan packages deleted."
 }
 
-# Main script logic
-if [[ $# -eq 0 ]]; then
-    usage
-fi
+# Main loop
+while true; do
+    # Update the package list and remove orphans
+    check_explicit_packages
+    delete_orphans
 
-# Parse options
-while [[ $# -gt 0 ]]; do
-    case "$1" in
-        -a|--add)
-            if [[ -z "$2" ]]; then
-                echo "Error: Package name not provided."
-                usage
-            fi
-            add_package "$2"
-            shift 2
-            ;;
-        -r|--remove)
-            if [[ -z "$2" ]]; then
-                echo "Error: Package name not provided."
-                usage
-            fi
-            remove_package "$2"
-            shift 2
-            ;;
-        -l|--list)
-            list_packages
-            shift
-            ;;
-        -i|--install)
-            install_packages
-            shift
-            ;;
-        -c|--check)
-            check_explicit_packages
-            shift
-            ;;
-        -d|--delete-orphans)
-            delete_orphans
-            shift
-            ;;
-        -h|--help)
-            usage
-            ;;
-        *)
-            echo "Error: Unknown option '$1'."
-            usage
-            ;;
+    # Tidy the file (sort and remove duplicates)
+    tidy_file
+
+    # Clear the screen and show the current packages
+    clear
+    list_packages
+    echo ""
+
+    # Show the menu
+    show_menu
+
+    # Get user input
+    read -r choice
+
+    case $choice in
+        a) add_package ;;
+        r) remove_package ;;
+        i) install_packages ;;
+        0) exit 0 ;;
+        *) echo "Invalid option. Press Enter to continue..." ;;
     esac
 done

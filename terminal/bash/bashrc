@@ -5,3 +5,6 @@ alias ns="nix-shell"
 alias nl="nix-shell ~/lince-social/lince"
 
 shopt -s autocd
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+

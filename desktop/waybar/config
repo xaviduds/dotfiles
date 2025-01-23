@@ -119,7 +119,7 @@
   "custom/microphone": {
     "interval": 1,
     "exec": "wpctl get-volume @DEFAULT_SOURCE@ | awk '{print $2}'",
-    "format": "🎙️ {} ",
+    "format": "M {} ",
     "on-click": "wpctl set-volume -l 1 @DEFAULT_SOURCE@ 0.15",
     "on-scroll-up": "wpctl set-volume -l 1 @DEFAULT_SOURCE@ 0.01+",
     "on-scroll-down": "wpctl set-volume -l 1 @DEFAULT_SOURCE@ 0.01-"
