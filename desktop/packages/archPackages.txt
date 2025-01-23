@@ -1,0 +1,9 @@
+git
+networkmanager
+firefox
+helix
+neovim
+waybar
+alacritty
+swww
+
