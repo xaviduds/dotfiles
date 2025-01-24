@@ -58,7 +58,7 @@
     "tooltip-format-wifi": "{essid} ({signalStrength}%) ",
     "tooltip-format-ethernet": "{ifname} ",
     "tooltip-format-disconnected": "Disconnected",
-    "on-click": "alacritty -e nmtui",
+    "on-click": "ghostty -e nmtui",
     "on-click-middle": "",
     "on-click-right": ""
   },
@@ -74,22 +74,26 @@
     "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
     "critical-threshold": 80,
     "format": " {temperatureC}°C",
-    "format-critical": "AAAAAAAAAAAAA {temperatureC}°C",
+             "on-click": "ghostty -e btop",
+   "format-critical": "AAAAAAAAAAAAA {temperatureC}°C",
     "interval": 1
   },
   "cpu": {
     "interval": 1,
     "format": "  {usage:>2}%",
+             "on-click": "ghostty -e btop",
     "min-length": 6
   },
   "memory": {
     "format": "  {used:>2.0f}/{total:.0f}",
     "tooltip": false,
+             "on-click": "ghostty -e btop",
     "interval": 1
   },
   "disk": {
     "format": "  {specific_used:>3.0f}/{specific_total:.0f}",
     "unit": "GB",
+             "on-click": "ghostty -e btop",
     "path": "/",
     "tooltip": false,
     "interval": 1

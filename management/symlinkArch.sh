@@ -4,10 +4,6 @@ DOTFILES_DIR="/home/eduardo/xaviduds/dotfiles"
 CONFIG_DIR="/home/eduardo/.config"
 HOME_DIR="/home/eduardo"
 
-# Copy Alacritty configuration
-mkdir -p "$CONFIG_DIR/alacritty"
-cat "$DOTFILES_DIR/terminal/alacritty/alacritty.toml" > "$CONFIG_DIR/alacritty/alacritty.toml"
-
 # Set bashrc
 cat "$DOTFILES_DIR/terminal/bash/bashrc" > "$HOME_DIR/.bashrc"
 
@@ -18,7 +14,7 @@ cat "$DOTFILES_DIR/editor/emacs/config.org" > "$CONFIG_DIR/emacs/config.org"
 
 # Ghostty
 mkdir -p "$CONFIG_DIR/ghostty"
-cp -r "$DOTFILES_DIR/terminal/ghostty/*" "$CONFIG_DIR/ghostty"
+cat "$DOTFILES_DIR/terminal/ghostty/config" > "$CONFIG_DIR/ghostty/config"
 
 # Set gitconfig
 cat "$DOTFILES_DIR/terminal/git/gitconfig" > "$HOME_DIR/.gitconfig"
@@ -37,20 +33,21 @@ cat "$DOTFILES_DIR/desktop/hypr/hyprland.conf" > "$CONFIG_DIR/hypr/hyprland.conf
 mkdir -p "$CONFIG_DIR/lince"
 
 # Neovim
-mkdir -p /home/eduardo/.config/nvim
-rm -rf /home/eduardo/.config/nvim/*
-cp -r /home/eduardo/xaviduds/dotfiles/editor/nvim/* /home/eduardo/.config/nvim
+mkdir -p "$CONFIG_DIR/nvim"
+rm -rf "$CONFIG_DIR/nvim/*"
+cat "$DOTFILES_DIR/editor/nvim/init.lua" > "$CONFIG_DIR/nvim/init.lua"
+cp -r "$DOTFILES_DIR/editor/nvim/lua" "$CONFIG_DIR/nvim/lua"
 
 # # Nushell
-mkdir -p /home/eduardo/.config/nushell
-rm -rf /home/eduardo/.config/nushell/env.nu
-rm -rf /home/eduardo/.config/nushell/config.nu
-cp -r /home/eduardo/xaviduds/dotfiles/terminal/nushell/* /home/eduardo/.config/nushell
+mkdir -p "$CONFIG_DIR/nushell"
+rm -rf "$CONFIG_DIR/nushell/env.nu"
+rm -rf "$CONFIG_DIR/nushell/config.nu"
+cat "$DOTFILES_DIR/terminal/nushell/config.nu" > "$CONFIG_DIR/nushell/config.nu"
+cat "$DOTFILES_DIR/terminal/nushell/env.nu" > "$CONFIG_DIR/nushell/env.nu"
 
 # Rofi
 mkdir -p "$CONFIG_DIR/rofi"
 cp -r "$DOTFILES_DIR/terminal/rofi" "$CONFIG_DIR/rofi"
-
 
 # Starship
 cat "$DOTFILES_DIR/terminal/starship/starship.toml" > "$CONFIG_DIR/starship.toml"

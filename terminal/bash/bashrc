@@ -3,8 +3,10 @@ alias n="nvim"
 alias z="clear && ls -1A --group-directories-first"
 alias ns="nix-shell"
 alias nl="nix-shell ~/lince-social/lince"
+alias nsl="nix-shell ~/lince-social/lince/lspeace.nix"
 
 shopt -s autocd
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 
+source ~/.bashrc

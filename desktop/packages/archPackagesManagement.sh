@@ -51,7 +51,7 @@ remove_package() {
         if grep -Fxq "$package" "$FILE"; then
             sed -i "/^$package$/d" "$FILE"
             echo "Package '$package' removed from the list."
-            yay -Rs "$package"
+            yay -Rs "$package" --noconfirm
         else
             echo "Package '$package' not found in the list."
         fi
