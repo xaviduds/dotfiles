@@ -15,7 +15,6 @@ in
       ".bashrc".source = "${dotfilesDir}/terminal/bash/bashrc";
       ".gitconfig".source = "${dotfilesDir}/terminal/git/gitconfig";
       ".config/starship.toml".source = "${dotfilesDir}/terminal/starship/starship.toml";
-      ".config/alacritty".source = "${dotfilesDir}/terminal/alacritty";
       ".config/rofi".source = "${dotfilesDir}/terminal/rofi";
       ".config/emacs".source = "${dotfilesDir}/editor/emacs";
       ".config/helix".source = "${dotfilesDir}/editor/helix";
@@ -25,7 +24,6 @@ in
     };
     persistence."/persist/home" = {
       directories = [
-        # ".config/ghostty"
         ".config/chromium"
         ".config/discord"
         ".config/lince"
@@ -39,9 +37,6 @@ in
         "lince-social"
         "other"
         "xaviduds"
-        ".config/Postman"
-        ".local/share/DBeaverData"
-        # ".local/share/Steam"
       ];
       files = [ ];
       allowOther = true;

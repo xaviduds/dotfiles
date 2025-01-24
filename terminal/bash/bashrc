@@ -8,5 +8,3 @@ alias nsl="nix-shell ~/lince-social/lince/lspeace.nix"
 shopt -s autocd
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
-
-source ~/.bashrc
