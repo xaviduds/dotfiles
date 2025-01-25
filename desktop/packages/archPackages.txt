@@ -5,6 +5,8 @@ brightnessctl
 btop
 carapace
 chromium
+dolphin
+dunst
 efibootmgr
 fastfetch
 feh
@@ -17,6 +19,7 @@ git
 grim
 gst-plugin-pipewire
 helix
+htop
 hyprland
 intel-media-driver
 intel-ucode
@@ -57,6 +60,7 @@ stremio
 swww
 ttf-jetbrains-mono-nerd
 unzip
+vim
 vulkan-intel
 vulkan-radeon
 waybar
@@ -64,6 +68,7 @@ wget
 wireless_tools
 wireplumber
 wl-clipboard
+wofi
 xdg-desktop-portal-hyprland
 xdg-utils
 xf86-video-amdgpu
@@ -72,8 +77,10 @@ xf86-video-nouveau
 xf86-video-vmware
 xorg-server
 xorg-xinit
+yay
 yay-bin
 yay-bin-debug
+yay-debug
 yazi
 yt-dlp
 zathura

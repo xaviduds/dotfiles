@@ -32,3 +32,6 @@ echo "max-jobs = auto" >> "$temp_file"        # Append 'max-jobs=auto'
 sudo mv "$temp_file" "$nix_conf"
 
 echo "Nix configuration file updated successfully: $nix_conf"
+
+nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
+nix-channel --update
