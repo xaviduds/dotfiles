@@ -47,7 +47,10 @@ cat "$DOTFILES_DIR/terminal/nushell/env.nu" > "$CONFIG_DIR/nushell/env.nu"
 
 # Rofi
 mkdir -p "$CONFIG_DIR/rofi"
-cp -r "$DOTFILES_DIR/terminal/rofi" "$CONFIG_DIR/rofi"
+rm -rf "$CONFIG_DIR/rofi/config.rasi"
+rm -rf "$CONFIG_DIR/rofi/catppuccin-mocha.rasi"
+cat "$DOTFILES_DIR/terminal/rofi/config.rasi" > "$CONFIG_DIR/rofi/config.rasi"
+cat "$DOTFILES_DIR/terminal/rofi/catppuccin-mocha.rasi" > "$CONFIG_DIR/rofi/catppuccin-mocha.rasi"
 
 # Starship
 cat "$DOTFILES_DIR/terminal/starship/starship.toml" > "$CONFIG_DIR/starship.toml"

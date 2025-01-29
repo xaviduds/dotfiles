@@ -14,31 +14,13 @@ show_menu() {
     echo "===================================="
     echo " Arch Linux Package Manager Helper  "
     echo "===================================="
-    echo "a. Add a package"
+    echo "a. Add a package, install all needed"
     echo "r. Remove a package"
-    echo "i. Install all packages"
     echo "0. Exit"
     echo "===================================="
 }
 
 # Function to add a package (or multiple packages)
-add_package() {
-    echo "Enter the package name(s) to add (separated by spaces):"
-    read -r package_input
-
-    # Split the input into individual packages
-    IFS=' ' read -r -a packages <<< "$package_input"
-
-    for package in "${packages[@]}"; do
-        if grep -Fxq "$package" "$FILE"; then
-            echo "Package '$package' already exists in the list."
-        else
-            echo "$package" >> "$FILE"
-            echo "Package '$package' added to the list."
-        fi
-    done
-    sleep 2
-}
 
 remove_package() {
     echo "Enter the package name(s) to remove (separated by spaces):"
@@ -83,6 +65,26 @@ install_packages() {
     read -r
 }
 
+add_package() {
+    echo "Enter the package name(s) to add (separated by spaces):"
+    read -r package_input
+
+    # Split the input into individual packages
+    IFS=' ' read -r -a packages <<< "$package_input"
+
+    for package in "${packages[@]}"; do
+        if grep -Fxq "$package" "$FILE"; then
+            echo "Package '$package' already exists in the list."
+        else
+            echo "$package" >> "$FILE"
+            echo "Package '$package' added to the list."
+        fi
+    done
+    sleep 2
+    install_packages
+}
+
+
 # Function to check explicitly installed packages
 check_explicit_packages() {
     echo "Checking explicitly installed packages..."
@@ -118,7 +120,6 @@ while true; do
     case $choice in
         a) add_package ;;
         r) remove_package ;;
-        i) install_packages ;;
         0) exit 0 ;;
         *) echo "Invalid option. Press Enter to continue..." ;;
     esac

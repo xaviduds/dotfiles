@@ -50,7 +50,7 @@
     "format": "   {capacity}%"
   },
   "network": {
-    "interval": 3,
+    "interval": 1,
     "format": "{ifname}",
     "format-wifi": "↑ {bandwidthUpBytes} ↓ {bandwidthDownBits}    {essid} ({signalStrength}%)",
     "format-ethernet": "{ipaddr}/{cidr} 󰊗",
