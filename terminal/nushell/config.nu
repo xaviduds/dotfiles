@@ -8,7 +8,7 @@ alias n = nvim
 def z [] { clear; ls -a | sort-by type }
 alias ns = nix-shell
 alias nl = nix-shell ~/lince-social/lince
-alias nsl = nix-shell ~/lince-social/dev/language-servers.nix
+alias nsl = nix-shell ~/lince-social/dev/misc/language-servers.nix
 alias nsd = nix-shell ~/lince-social/dev
 
 def reseedLince [] {prisma db push --force-reset; prisma db seed; npm run dev}
