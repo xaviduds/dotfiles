@@ -4,6 +4,11 @@ DOTFILES_DIR="/home/eduardo/xaviduds/dotfiles"
 CONFIG_DIR="/home/eduardo/.config"
 HOME_DIR="/home/eduardo"
 
+# Alacritty
+mkdir -p "$CONFIG_DIR/alacritty"
+rm -rf "$CONFIG_DIR/alacritty/alacritty.toml"
+cat "$DOTFILES_DIR/terminal/alacritty/alacritty.toml" > "$CONFIG_DIR/alacritty/alacritty.toml"
+
 # Set bashrc
 cat "$DOTFILES_DIR/terminal/bash/bashrc" > "$HOME_DIR/.bashrc"
 
