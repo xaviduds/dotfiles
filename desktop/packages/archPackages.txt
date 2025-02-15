@@ -6,8 +6,6 @@ brightnessctl
 btop
 carapace
 chromium
-discord
-dolphin
 dunst
 efibootmgr
 fastfetch
@@ -16,12 +14,10 @@ firefox
 fzf
 gcc
 ghostty
-gimp
 git
 grim
 gst-plugin-pipewire
 helix
-htop
 hyprland
 intel-media-driver
 intel-ucode
@@ -34,6 +30,7 @@ libva-intel-driver
 linux
 linux-firmware
 lua-language-server
+man-db
 mesa
 mesa-demos
 mesa-utils
@@ -52,6 +49,7 @@ pipewire-alsa
 pipewire-jack
 pipewire-pulse
 polkit-kde-agent
+postman-bin
 qt5-wayland
 qt6-wayland
 ripgrep
@@ -66,6 +64,7 @@ swww
 ttf-jetbrains-mono-nerd
 unzip
 vim
+vivaldi
 vulkan-intel
 vulkan-radeon
 waybar
@@ -120,4 +119,5 @@ yay-debug
 yazi
 yt-dlp
 zathura
+zathura-pdf-mupdf
 zram-generator

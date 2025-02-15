@@ -28,6 +28,7 @@ pkgs.mkShell {
     pyright
     isort
     ruff
+    # python313Packages.tabulate
 
     ## Nix
     nil

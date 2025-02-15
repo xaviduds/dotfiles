@@ -3,13 +3,23 @@ source ~/.config/nushell/env.nu
 source ~/.cache/carapace/init.nu
 use ~/.cache/starship/init.nu
 
+# General
 alias e = exit
 alias n = nvim
 def z [] { clear; ls -a | sort-by type }
+
+# Nix-shells
 alias ns = nix-shell
 alias nl = nix-shell ~/lince-social/lince
 alias nsl = nix-shell ~/lince-social/dev/misc/language-servers.nix
 alias l = nix-shell ~/lince-social/dev
+
+# Git
+alias p = git push
+alias gs = git switch 
+alias s = git status
+alias c = git commit
+alias a = git add .
 
 def reseedLince [] {prisma db push --force-reset; prisma db seed; npm run dev}
 

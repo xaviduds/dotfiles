@@ -8,7 +8,7 @@ return {
 		null_ls.setup({
 			sources = {
 				null_ls.builtins.formatting.stylua,
-				null_ls.builtins.formatting.prettier,
+				-- null_ls.builtins.formatting.prettier,
 				null_ls.builtins.formatting.isort,
 				null_ls.builtins.diagnostics.mypy,
 				-- null_ls.builtins.formatting.black,
@@ -21,7 +21,7 @@ return {
 				-- 	extra_args = { "--dialect", "postgres" }, -- change to your dialect
 				-- }),
 				-- null_ls.builtins.formatting.sqruff,
-				require("none-ls.diagnostics.eslint"),
+				-- require("none-ls.diagnostics.eslint"),
 			},
 		})
 		vim.keymap.set("n", "<leader>gf", vim.lsp.buf.format, {})
