@@ -8,7 +8,7 @@
 # rm -rf yay-bin
 
 # New way, cooler way. Check if yay is installed
-if ! command -v yay &> /dev/null; then
+if ! command -v yay &>/dev/null; then
     echo "yay is not installed. Installing yay..."
 
     # Install dependencies required for building yay

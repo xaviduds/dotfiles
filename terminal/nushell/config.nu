@@ -22,8 +22,8 @@ alias s = git status
 alias c = git commit
 alias a = git add .
 
-alias simarch = bash ~/xaviduds/dotfiles/management/symlinkArch.sh
-alias iarch = bash ~/xaviduds/dotfiles/desktop/packages/archPackagesManagement.sh
+alias sa = bash ~/xaviduds/dotfiles/management/symlinkArch.sh
+alias ia = bash ~/xaviduds/dotfiles/desktop/packages/archPackagesManagement.sh
 alias h = helix
 alias i = yay -S --needed --noconfirm
 

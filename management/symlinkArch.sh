@@ -12,11 +12,6 @@ cat "$DOTFILES_DIR/terminal/alacritty/alacritty.toml" > "$CONFIG_DIR/alacritty/a
 # Set bashrc
 cat "$DOTFILES_DIR/terminal/bash/bashrc" > "$HOME_DIR/.bashrc"
 
-# Copy Emacs configuration
-mkdir -p "$CONFIG_DIR/emacs"
-cat "$DOTFILES_DIR/editor/emacs/init.el" > "$CONFIG_DIR/emacs/init.el"
-cat "$DOTFILES_DIR/editor/emacs/config.org" > "$CONFIG_DIR/emacs/config.org"
-
 # Ghostty
 mkdir -p "$CONFIG_DIR/ghostty"
 cat "$DOTFILES_DIR/terminal/ghostty/config" > "$CONFIG_DIR/ghostty/config"
@@ -29,6 +24,7 @@ mkdir -p "$CONFIG_DIR/helix/themes"
 cat "$DOTFILES_DIR/editor/helix/ignore" > "$HOME_DIR/.ignore"
 cat "$DOTFILES_DIR/editor/helix/themes/catppuccin_mocha.toml" > "$CONFIG_DIR/helix/themes/catppuccin_mocha.toml"
 cat "$DOTFILES_DIR/editor/helix/config.toml" > "$CONFIG_DIR/helix/config.toml"
+cat "$DOTFILES_DIR/editor/helix/languages.toml" > "$CONFIG_DIR/helix/languages.toml"
 
 # Copy Hyprland configuration
 mkdir -p "$CONFIG_DIR/hypr"
@@ -36,12 +32,6 @@ cat "$DOTFILES_DIR/desktop/hypr/hyprland.conf" > "$CONFIG_DIR/hypr/hyprland.conf
 
 # Prepare Lince directory
 mkdir -p "$CONFIG_DIR/lince"
-
-# Neovim
-mkdir -p "$CONFIG_DIR/nvim"
-rm -rf "$CONFIG_DIR/nvim/*"
-cat "$DOTFILES_DIR/editor/nvim/init.lua" > "$CONFIG_DIR/nvim/init.lua"
-cp -r "$DOTFILES_DIR/editor/nvim/lua" "$CONFIG_DIR/nvim/lua"
 
 # # Nushell
 mkdir -p "$CONFIG_DIR/nushell"

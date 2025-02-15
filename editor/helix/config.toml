@@ -4,11 +4,12 @@ theme = "catppuccin_mocha"
 [editor]
 line-number = "relative"
 auto-save = true
+auto-format = true
 soft-wrap.enable = true
 cursor-shape.insert = "bar"
 bufferline = "multiple"
 end-of-line-diagnostics = "hint"
-lsp.display-inlay-hints = true
+# lsp.display-inlay-hints = true
 
 [editor.inline-diagnostics]
 cursor-line = "error"
@@ -38,6 +39,10 @@ mode.select = "S"
 "A-d" = [ ":bc" ]
 "C-tab" = [":buffer-next"]
 "C-S-tab" = [":buffer-previous"]
+"C-h" = ["jump_view_left"]
+"C-j" = ["jump_view_down"]
+"C-k" = ["jump_view_up"]
+"C-l" = ["jump_view_right"]
 
 [keys.insert]
 "A-w" = [ ":w" ]
@@ -46,3 +51,7 @@ mode.select = "S"
 "A-d" = [ ":bc" ]
 "C-tab" = [":buffer-next"]
 "C-S-tab" = [":buffer-previous"]
+"C-h" = ["jump_view_left"]
+"C-j" = ["jump_view_down"]
+"C-k" = ["jump_view_up"]
+"C-l" = ["jump_view_right"]

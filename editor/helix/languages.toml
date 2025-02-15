@@ -1,0 +1,97 @@
+# Enable auto-format on save for all languages
+[editor]
+auto-format = true
+
+# Language-specific configurations
+[[language]]
+name = "python"
+file-types = ["py"]
+auto-format = true
+formatter = { command = "black", args = ["--quiet", "-"] }  # Black uses 4 spaces by default
+
+[[language]]
+name = "go"
+file-types = ["go"]
+auto-format = true
+formatter = { command = "gofmt" }  # gofmt uses tabs, but you can use `goimports` for 4 spaces
+
+[[language]]
+name = "rust"
+file-types = ["rs"]
+auto-format = true
+formatter = { command = "rustfmt", args = ["--edition", "2021"] }  # rustfmt uses 4 spaces by default
+
+
+[[language]]
+name = "bash"
+file-types = ["sh"]
+auto-format = true
+formatter = { command = "shfmt", args = ["-i", "4"] }  # 4 spaces for indentation
+
+[[language]]
+name = "zig"
+file-types = ["zig"]
+auto-format = true
+formatter = { command = "zig", args = ["fmt", "--stdin"] }  # zig fmt uses 4 spaces by default
+
+
+[[language]]
+name = "dockerfile"
+file-types = ["Dockerfile"]
+auto-format = true
+formatter = { command = "dockerfile-formatter" }  # Install via npm: `npm install -g dockerfile-formatter`
+
+[[language]]
+name = "sql"
+file-types = ["sql"]
+auto-format = true
+formatter = { command = "pg_format", args = ["-s", "4"] }  # 4 spaces for indentation
+
+[[language]]
+name = "nginx"
+file-types = ["nginx", "conf"]
+auto-format = true
+formatter = { command = "nginxfmt" }  # Install via pip: `pip install nginxfmt`
+
+[[language]]
+name = "nix"
+file-types = ["nix"]
+auto-format = true
+formatter = { command = "nixfmt" }  # Install via nix: `nix-env -iA nixpkgs.nixfmt`
+
+[[language]]
+name = "prisma"
+file-types = ["prisma"]
+auto-format = true
+formatter = { command = "prisma-fmt" }  # Comes with Prisma CLI
+
+[[language]]
+name = "javascript"
+file-types = ["js"]
+auto-format = true
+
+[[language]]
+name = "typescript"
+file-types = ["ts"]
+auto-format = true
+
+[[language]]
+name = "css"
+file-types = ["css"]
+auto-format = true
+
+[[language]]
+name = "html"
+file-types = ["html"]
+auto-format = true
+
+[[language]]
+name = "tsx"
+file-types = ["tsx"]
+auto-format = true
+
+
+[[language]]
+name = "jsx"
+file-types = ["jsx"]
+auto-format = true

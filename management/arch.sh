@@ -12,8 +12,5 @@ bash "$DOTFILES_DIR/desktop/nix/archNix.sh"
 bash "$DOTFILES_DIR/desktop/impermanence/arch.sh"
 bash "$DOTFILES_DIR/management/gitCloning.sh"
 bash "$DOTFILES_DIR/desktop/packages/archPackagesManagement.sh"
-# bash "$DOTFILES_DIR/"
-# bash "$DOTFILES_DIR/"
-# bash "$DOTFILES_DIR/"
 
 
