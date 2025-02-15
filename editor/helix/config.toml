@@ -1,16 +1,23 @@
-theme = "dark"
+theme = "catppuccin_mocha"
+
+
 [editor]
 line-number = "relative"
+auto-save = true
 soft-wrap.enable = true
 cursor-shape.insert = "bar"
 bufferline = "multiple"
+end-of-line-diagnostics = "hint"
+lsp.display-inlay-hints = true
+
+[editor.inline-diagnostics]
+cursor-line = "error"
+[editor.file-picker]
+hidden = false
 
 # [editor.whitespace.render]
 # space = "all"
 # tab = "all"
-
-[editor.file-picker]
-hidden = false
 
 [editor.statusline]
 left = ["mode", "read-only-indicator","file-type", "file-name","version-control", "read-only-indicator", "file-modification-indicator"]
@@ -21,16 +28,21 @@ mode.normal = "N"
 mode.insert = "I"
 mode.select = "S"
 
-[keys.insert]
-"A-w" = [ ":w" ]
-"A-q" = [ ":q" ]
-"A-s" = [ ":wq" ]
-"A-b" = [ ":bc" ]
-
 [keys.normal]
+"C-x" = [":reset-diff-change"]
 "A-j" = [ "extend_to_line_bounds", "delete_selection", "paste_after" ]
 "A-k" = [ "extend_to_line_bounds", "delete_selection", "move_line_up", "paste_before" ]
 "A-w" = [ ":w" ]
 "A-q" = [ ":q" ]
 "A-s" = [ ":wq" ]
-"A-b" = [ ":bc" ]
+"A-d" = [ ":bc" ]
+"C-tab" = [":buffer-next"]
+"C-S-tab" = [":buffer-previous"]
+
+[keys.insert]
+"A-w" = [ ":w" ]
+"A-q" = [ ":q" ]
+"A-s" = [ ":wq" ]
+"A-d" = [ ":bc" ]
+"C-tab" = [":buffer-next"]
+"C-S-tab" = [":buffer-previous"]

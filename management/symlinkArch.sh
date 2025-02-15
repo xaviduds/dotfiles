@@ -27,7 +27,7 @@ cat "$DOTFILES_DIR/terminal/git/gitconfig" > "$HOME_DIR/.gitconfig"
 # Copy Helix configuration
 mkdir -p "$CONFIG_DIR/helix/themes"
 cat "$DOTFILES_DIR/editor/helix/ignore" > "$HOME_DIR/.ignore"
-cat "$DOTFILES_DIR/editor/helix/dark.toml" > "$CONFIG_DIR/helix/themes/dark.toml"
+cat "$DOTFILES_DIR/editor/helix/themes/catppuccin_mocha.toml" > "$CONFIG_DIR/helix/themes/catppuccin_mocha.toml"
 cat "$DOTFILES_DIR/editor/helix/config.toml" > "$CONFIG_DIR/helix/config.toml"
 
 # Copy Hyprland configuration

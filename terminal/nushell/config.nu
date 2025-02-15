@@ -12,6 +12,7 @@ def z [] { clear; ls -a | sort-by type }
 alias ns = nix-shell
 alias nl = nix-shell ~/lince-social/lince
 alias nsl = nix-shell ~/lince-social/dev/misc/language-servers.nix
+alias hl = helix ~/lince-social/dev
 alias l = nix-shell ~/lince-social/dev
 
 # Git
@@ -20,6 +21,11 @@ alias gs = git switch
 alias s = git status
 alias c = git commit
 alias a = git add .
+
+alias simarch = bash ~/xaviduds/dotfiles/management/symlinkArch.sh
+alias iarch = bash ~/xaviduds/dotfiles/desktop/packages/archPackagesManagement.sh
+alias h = helix
+alias i = yay -S --needed --noconfirm
 
 def reseedLince [] {prisma db push --force-reset; prisma db seed; npm run dev}
 
