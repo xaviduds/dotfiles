@@ -10,10 +10,7 @@
       brightnessctl
       btop
       carapace
-      # catppuccin-sddm
       chromium
-      # clang
-      # coreutils
       dbeaver-bin
       delta
       discord
@@ -54,17 +51,8 @@
       nodePackages.prettier
       nodePackages_latest.typescript-language-server
       nushell
-      # nushellPlugins.query
-      # nushellPlugins.polars
-      # nushellPlugins.net
-      # nushellPlugins.highlight
-      # nushellPlugins.gstat
-      # nushellPlugins.formats
       openssh
       openssl
-      # pgformatter
-      # pnpm
-      # postgres-lsp
       postman
       prisma
       protonup

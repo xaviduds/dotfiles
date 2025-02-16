@@ -46,7 +46,6 @@ mesa-utils
 mpv
 nano
 ncdu
-neovim
 net-tools
 networkmanager
 network-manager-applet
@@ -62,6 +61,7 @@ pipewire-jack
 pipewire-pulse
 polkit-kde-agent
 postman-bin
+prettier
 prisma-language-server
 pyright
 python-lsp-server
@@ -72,6 +72,7 @@ rofi-wayland
 ruff
 rustup
 sddm
+shfmt
 slurp
 smartmontools
 sql-formatter
@@ -85,7 +86,6 @@ ttf-jetbrains-mono-nerd
 typescript-language-server
 ufw
 unzip
-vim
 visual-studio-code-bin
 vivaldi
 vscode-langservers-extracted
