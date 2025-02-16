@@ -1,24 +1,25 @@
 theme = "catppuccin_mocha"
 
-
 [editor]
 line-number = "relative"
-auto-save = true
 auto-format = true
 soft-wrap.enable = true
 cursor-shape.insert = "bar"
 bufferline = "multiple"
 end-of-line-diagnostics = "hint"
-# lsp.display-inlay-hints = true
+completion-trigger-len = 1
+completion-replace = true
+
+[editor.auto-save]
+focus-lost = true
+after-delay.enable = true
+after-delay.timeout = 5000
 
 [editor.inline-diagnostics]
 cursor-line = "error"
+
 [editor.file-picker]
 hidden = false
-
-# [editor.whitespace.render]
-# space = "all"
-# tab = "all"
 
 [editor.statusline]
 left = ["mode", "read-only-indicator","file-type", "file-name","version-control", "read-only-indicator", "file-modification-indicator"]

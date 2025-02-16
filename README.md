@@ -20,5 +20,8 @@ cd && sudo mv ./xaviduds /mnt/persist && reboot
 To configure, after reboot:
 ```bash
 mv /persist/xaviduds/dotfiles ~/xaviduds/
+
+ssh-keygen -t ed25519 -C "xaviduds@gmail.com" && eval "$(ssh-agent -s)" && ssh-add ~/.ssh/id_ed25519 && cat ~/.ssh/id_ed25519.pub
 ```
+
 I think this works haha
