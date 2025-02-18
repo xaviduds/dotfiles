@@ -3,11 +3,9 @@ base
 base-devel
 bash-language-server
 brightnessctl
-btop
 carapace
 chromium
 clang
-cursor-bin
 docker
 dockerfile-language-server
 dunst
@@ -29,7 +27,6 @@ inetutils
 intel-media-driver
 intel-ucode
 iwd
-kitty
 lazygit
 less
 libpulse
@@ -51,6 +48,7 @@ networkmanager
 network-manager-applet
 nil-git
 nix
+nodejs
 npm
 nushell
 openssh
@@ -87,7 +85,6 @@ typescript-language-server
 ufw
 unzip
 visual-studio-code-bin
-vivaldi
 vscode-langservers-extracted
 vulkan-intel
 vulkan-radeon
@@ -142,7 +139,6 @@ yay-bin
 yay-bin-debug
 yay-debug
 yazi
-yt-dlp
 zathura
 zathura-pdf-mupdf
 zls
