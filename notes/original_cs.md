@@ -1507,18 +1507,13 @@ Highscalability.com has wide collection of articles on Scalable architecture. In
 
 ---
 
-*** Misc
-
+### Misc
 - **HCI**
   - [ ] [CS147 - Introduction to Human-Computer Interaction Design - Stanford](https://hci.stanford.edu/courses/cs147/2015/au/calendar.php)
   - [ ] [CSEP 510 - Human Computer Interaction](https://courses.cs.washington.edu/courses/csep510/04wi/)
   - [ ] [Programming for Designers - COMP1400-T2 (2010) - UNSW](https://www.youtube.com/playlist?list=PL9444191613E018CC)
   - [ ] [08-763 Intro to HCI for Technology Executives - Fall 2015 - CMU](https://scs.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx#folderID=%228bb9f417-9f60-4e00-84f6-4ef8e7425ae1%22&maxResults=150)
   - [ ] [05-600 HCI Pro Seminar - Fall 2015 - CMU](https://scs.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx#folderID=%22d885fd87-1ba1-47a3-9bd2-c4bde55f9749%22&maxResults=150)
-- **Game Development**
-  - [ ] [CS50's Introduction to Game Development](https://www.edx.org/course/cs50s-introduction-to-game-development)
-  - [ ] [MIT CMS.611J Creating Video Games, Fall 2014](https://ocw.mit.edu/courses/comparative-media-studies-writing/cms-611j-creating-video-games-fall-2014/lecture-videos/)
-  - [ ] [MOOC - Beginning Game Programming with C# - Coursera](http://academictorrents.com/details/0a7ba7e62821e488a0061751fdb81f4298733bea)
 - **Geospatial**
   - [ ] [Introduction to Spatial Data Science, Autumn 2016, University of Chicago](https://www.youtube.com/playlist?list=PLzREt6r1Nenkr2vtYgbP4hs44HO_s_qEO)
   - [ ] [Spatial Regression Analysis, Spring 2017, University of Chicago](https://www.youtube.com/playlist?list=PLzREt6r1Nenkk7x197-CKPFZ0BuAOCRGT)

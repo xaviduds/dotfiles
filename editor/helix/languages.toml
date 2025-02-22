@@ -1,8 +1,6 @@
-# Enable auto-format on save for all languages
 [editor]
 auto-format = true
 
-# Language-specific configurations
 [[language]]
 name = "python"
 file-types = ["py"]
@@ -20,7 +18,13 @@ name = "rust"
 file-types = ["rs"]
 auto-format = true
 formatter = { command = "rustfmt", args = ["--edition", "2021"] }  # rustfmt uses 4 spaces by default
+language-servers = ["rust-analyzer"]
 
+[language-server.rust-analyzer]
+checkOnSave.command = "clippy"
+diagnostics.enable = true
+assist.emitMustUse = true
+assist.importEnforceGranularity = true
 
 [[language]]
 name = "bash"

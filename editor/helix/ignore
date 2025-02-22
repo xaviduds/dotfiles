@@ -11,7 +11,3 @@
 .vscode
 .stremio-server
 .pg
-*.png
-*.jpg
-*.jpeg
-*.gif

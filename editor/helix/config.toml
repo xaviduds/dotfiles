@@ -10,6 +10,11 @@ end-of-line-diagnostics = "hint"
 completion-trigger-len = 1
 completion-replace = true
 
+[editor.indent-guides]
+render = true
+character = "▏" # Some characters that work well: "▏", "┆", "┊", "⸽"
+skip-levels = 1
+
 [editor.auto-save]
 focus-lost = true
 after-delay.enable = true

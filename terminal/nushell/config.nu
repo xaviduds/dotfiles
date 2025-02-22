@@ -31,3 +31,5 @@ def reseedLince [] {prisma db push --force-reset; prisma db seed; npm run dev}
 
 $env.BUN_INSTALL = $"($env.HOME)/.bun"
 $env.PATH = ($env.PATH | append $"($env.BUN_INSTALL)/bin")
+$env.EDITOR = "helix"
+$env.VISUAL = "helix"
