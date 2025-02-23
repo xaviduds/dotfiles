@@ -1,6 +1,6 @@
-*** Introduction to Computer Science
-- [ ] [6.0001 - Introduction to Computer Science and Programming in Python - MIT OCW](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/video_galleries/lecture-videos/)
-- [ ] [6.001 - Structure and Interpretation of Computer Programs, MIT](https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video_galleries/video-lectures/)
+### Introduction to Computer Science
+- [x] [6.0001 - Introduction to Computer Science and Programming in Python - MIT OCW](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/video_galleries/lecture-videos/)
+- [-] [6.001 - Structure and Interpretation of Computer Programs, MIT](https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video_galleries/video-lectures/)
 - [ ] [Introduction to Computational Thinking - MIT](https://computationalthinking.mit.edu/Fall22/)
 - [ ] [CS 61A - Structure and Interpretation of Computer Programs [Python], UC Berkeley](https://cs61a.org/)
 - [ ] [CPSC 110 - Systematic Program Design [Racket], University of British Columbia](https://www.youtube.com/channel/UC7dEjIUwSxSNcW4PqNRQW8w/playlists?view=1&flow=grid&sort=da)
@@ -29,7 +29,7 @@
 - [ ] [UW Madison CS 354 Machine Organization and Programming spring 2020, 2021, by Michael Doescher](https://www.youtube.com/playlist?list=PLXY5xcFHqg32r5MZ-HfpA2Tr8Ke2lDYwI)
 - [ ] [Cornell ECE 4960 Computational and Software Engineering spring 2017, by Edwin Kan](https://www.youtube.com/playlist?list=PLcVqWUh-bHiFN2CY1KMTw0-L39iDXlemi)
 
-*** Data Structures and Algorithms
+### Data Structures and Algorithms
 
 - [ ] [ECS 36C - Data Structures and Algorithms (C++) - Spring 2020 - Joël Porquet-Lupine - UC Davis](https://lupteach.gitlab.io/courses/ucd-ecs36c/online/)
 - [ ] [Programming and Data Structures with Python, 2021-2022, Sem I - by Prof. Madhavan Mukund, CMI](https://www.cmi.ac.in/~madhavan/courses/python2021sep/)
@@ -104,7 +104,7 @@
 - [ ] [UC Santa Cruz CSE 104, 204 Computational Complexity fall 2020, spring 2022, by Seshadhri Comandur](https://www.youtube.com/playlist?list=PLOQjlWvnI0fYMPFnJeVZ0kt4KPwWcbF0o)
 - [ ] [UC Santa Cruz CSE 290A Randomized Algorithms spring 2020, by Seshadhri Comandur](https://www.youtube.com/playlist?list=PLOQjlWvnI0faRpH2oJcyW4CuM5Clt8a2n)
 
-*** Systems Programming
+### Systems Programming
 
 - [ ] [15-213 Introduction to Computer Systems, Fall 2015 - CMU](https://scs.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx#folderID=%22b96d90ae-9871-4fae-91e2-b1627b43e25e%22&maxResults=150)
 - [ ] [CS361 - COMPUTER SYSTEMS - UIC](https://www.cs.uic.edu/~ckanich/cs361/f20/)
@@ -112,7 +112,7 @@
 - [ ] [CS 4400 – Computer Systems Fall 2016 - UoUtah](https://www.eng.utah.edu/~cs4400/)
 - [ ] [Systems - Aduni](http://aduni.org/courses/systems/index.php?view=cw)
 - [ ] [CS110: Principles of Computer Systems - Stanford](https://web.stanford.edu/class/archive/cs/cs110/cs110.1202/)
-**** **Operating Systems**
+#### ##Operating Systems
   - [ ] [ECS 150 - Operating Systems and Systems Programming - Fall 2020 - Joël Porquet-Lupine - UC Davis](https://lupteach.gitlab.io/courses/ucd-ecs150/online/)
   - [ ] [CS124 Operating Systems - California Institute of Technology, Fall 2018 - Youtube](https://www.youtube.com/playlist?list=PL3swII2vlVoVbav6FV98pidq6BsTN4u56)
   - [ ] [CS 162 Operating Systems and Systems Programming, Spring 2015 - University of California, Berkeley](https://archive.org/details/ucberkeley-webcast-PL-XXv-cvA_iBDyz-ba4yDskqMDY6A1w_c?sort=titleSorter)
@@ -129,7 +129,7 @@
   - [ ] [CS194 Advanced Operating Systems Structures and Implementation, Spring 2013 InfoCoBuild, UC Berkeley](http://www.infocobuild.com/education/audio-video-courses/computer-science/cs194-spring2013-berkeley.html)
   - [ ] [CSE 60641 - Graduate Operating Systems, Fall 08](https://www.youtube.com/view_play_list?p=22B10D854588E20C)
   - [ ] [Advanced Programming in the UNIX Environment](https://stevens.netmeister.org/631/)
-**** **Distributed Systems**
+#### ##Distributed Systems
   - [ ] [CS 677 - Distributed Operating Systems, Spring 24 - Umass OS](https://www.youtube.com/playlist?list=PLacuG5pysFbBpWHfKUU9Dfdk8RmQ7B9EH)
   - [ ] [CS 436 - Distributed Computer Systems - U Waterloo](https://www.youtube.com/playlist?list=PLawkBQ15NDEkDJ5IyLIJUTZ1rRM9YQq6N)
   - [ ] [6.824 - Distributed Systems, Spring 2015 - MIT](https://www.youtube.com/playlist?list=PLkcQbKbegkMqiWf7nF8apfMRL4P4sw8UL)
@@ -148,7 +148,7 @@
   - [ ] [CMU 15 440 / 640 Distributed Systems Spring 2022, by Mahadev Satyanarayanan, Padmanabhan Pillai](https://www.youtube.com/playlist?list=PL682UO4IMem8a6N8GAOGkgcbDkGG1g5OH)
   - [ ] [UNC Comp533 - Distributed Systems Spring 2020](https://www.youtube.com/playlist?list=PLH5XTBxCO2hzgww9p5sew30lx3ngJsxcB)
   - [ ] [Brown CSCI 1380 Distributed Computer Systems spring 2016, by Tom Doeppner & Rodrigo Fonseca](https://cs.brown.edu/courses/cs138/s16/syllabus.html)
-**** **Real-Time Systems**
+#### ##Real-Time Systems
   - [ ] [CPCS 663 - Real-Time Systems: Video Material - TAMU](http://faculty.cs.tamu.edu/bettati/Courses/663/Video/presentation.html)
   - [ ] [Real Time Systems - IIT Kharagpur](https://nptel.ac.in/courses/106105036/)
 - [ ] [6.172 Performance Engineering of Software Systems - MIT OCW](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-172-performance-engineering-of-software-systems-fall-2018/)
@@ -157,7 +157,7 @@
 - [ ] [MAP6264 - Queueing Theory - FAU](http://www.cse.fau.edu/~bob/courses/map6264/)([Video Lectures](https://vimeo.com/album/171324/))
 - [ ] [EE 380 Colloquium on Computer Systems - Stanford University](http://web.stanford.edu/class/ee380/) ([Lecture videos](https://www.youtube.com/playlist?list=PLoROMvodv4rMWw6rRoeSpkiseTHzWj6vu))
 
-*** Database Systems
+### Database Systems
 
 - [ ] [CMPSC 431W Database Management Systems, Fall 2015 - Penn State University](http://www.cse.psu.edu/~wul2/cmpsc431w/) [Lectures - YouTube](https://www.youtube.com/playlist?list=PLstRzn3gXZMdXqAiVJ1NN2CoyXHqma7pQ)
 - [ ] [CS121 - Introduction to Relational Database Systems, Fall 2016 - Caltech](http://users.cms.caltech.edu/~donnie/cs121/)
@@ -183,9 +183,9 @@
 - [ ] [Distributed Data Management (WT 2019/20) - Dr. Thorsten Papenbrock - HPI](https://www.tele-task.de/series/1285/)
 - [ ] [CS122d - NoSQL Data Management (Spring 21) - Prof. Mike Carey - UC Irvine](https://uci.yuja.com/V/PlayList?node=9933576&a=1583628376&autoplay=1)
 
-*** Software Engineering
+### Software Engineering
 
-**** **Object Oriented Design**
+#### ##Object Oriented Design
   - [ ] [ECE 462 Object-Oriented Programming using C++ and Java - Purdue](https://engineering.purdue.edu/OOSD/F2008/F2008.html)
   - [ ] [Object-oriented Program Design and Software Engineering - Aduni](http://aduni.org/courses/java/index.php?view=cw)
   - [ ] [OOSE - Object-Oriented Software Engineering, Dr. Tim Lethbridge](https://www.youtube.com/playlist?list=PL6iDJCG2nkhfNlig8NY5ePPfGvtQX6yLa)
@@ -196,7 +196,7 @@
   - [ ] [CS3 - Design in Computing - Richard Buckland UNSW](https://www.youtube.com/playlist?list=PL0C5D85DBA20E685C)
   - [ ] [Informatics 1 - Object-Oriented Programming 2014/15- University of Edinburgh](http://groups.inf.ed.ac.uk/vision/VIDEO/2014/inf1op.htm)
   - [ ] [Software Engineering with Objects and Components 2015/16- University of Edinburgh](http://groups.inf.ed.ac.uk/vision/VIDEO/2015/seoc.htm)
-**** **Software Engineering Practical**
+#### ##Software Engineering Practical
   - [ ] [Computer Science 169- Software Engineering - Spring 2015 - UCBerkeley](https://www.youtube.com/playlist?list=PL-XXv-cvA_iCfQHHS7rxlfHFsU4aQW1IF)
   - [ ] [Computer Science 169- Software Engineering - Fall 2019 - UCBerkeley](https://www.youtube.com/playlist?list=PLkFD6_40KJIxCKgzL0uysjsAtfY3JawLS)
   - [ ] [CS 5150 - Software Engineering, Fall 2014 - Cornell University](http://www.cs.cornell.edu/courses/cs5150/2014fa/materials.html)
@@ -211,14 +211,14 @@
   - [ ] [Software Engineering - Bauhaus-Uni Weimar](https://www.youtube.com/watch?v=jouBM4AH0jw&list=PLjEglKdMOevU2STTGq79duxTXDFuO-k1H&index=2)
   - [ ] [CMU 17-445 Software Engineering for AI-Enabled Systems summer 2020, by Christian Kaestner](https://www.youtube.com/playlist?list=PLDS2JMJnJzdkQPdkhcuwcbJpjB84g9ffX)
 
-**** **Software Architecture**
+#### ##Software Architecture
   - [ ] [CS 411 - Software Architecture Design - Bilkent University](http://video.bilkent.edu.tr/course_videos.php?courseid=10)
   - [ ] [MOOC - Software Architecture & Design - Udacity](https://www.youtube.com/playlist?list=PLAwxTw4SYaPkMTetlG7xKWaI5ZAZFX8fL)
-**** Scalable-Software-Architecture
+#### Scalable-Software-Architecture
      Collection of tech talks, papers and web links on Distributed Systems, Scalability and System Design.
-***** Tech Talks
+##### Tech Talks
 
-****** General Advice on System Design and Scalability
+###### General Advice on System Design and Scalability
   - [Lecture - Scalability - Harvard Web Development, David Malan](https://www.youtube.com/watch?v=-W9F__D3oY4)
   - [Building Software Systems At Google and Lessons Learned](https://www.youtube.com/watch?v=modXC5IWTJI)
   - [Scalable Internet Architectures - Theo Schlossnagle](https://www.youtube.com/watch?v=2WuT2rdLK5A)
@@ -245,7 +245,7 @@
   - [Seattle Conference on Scalability: Abstractions for handling large datasets](https://www.youtube.com/watch?v=oRwFpQKgRps)
   - [High Performance Web Sites and YSlow](https://www.youtube.com/watch?v=BTHvs3V8DBA)
   
-****** Distributed Computing
+###### Distributed Computing
   - [Intro to Hadoop and MapReduce (Udacity)](https://www.youtube.com/playlist?list=PLAwxTw4SYaPkXJ6LAV96gH8yxIfGaN3H-)
   - [Introduction to Hadoop](https://www.youtube.com/watch?v=Pq3OyQO-l3E)
   - [MapReduce Flow Chart](https://www.youtube.com/watch?v=6OemZEJdMp8)
@@ -255,7 +255,7 @@
   - [Cluster Computing and MapReduce Lecture 2](https://www.youtube.com/watch?v=-vD6PUdf3Js)
   - [Introducing Apache Hadoop: The Modern Data Operating System](https://www.youtube.com/watch?v=d2xeNpfzsYI)
 
-****** Distributed Database/Large-Scale Storage
+###### Distributed Database/Large-Scale Storage
   - [Spanner: Google’s Globally-Distributed Database](https://www.usenix.org/conference/osdi12/technical-sessions/presentation/corbett) ([Youtube link](https://www.youtube.com/watch?v=NthK17nbpYs))
   - [Spanner - multi-version, globally- distributed, and synchronously-replicated database](https://www.youtube.com/watch?v=Q7pcMn0_tac)
   - [BigTable: A Distributed Structured Storage System](https://www.youtube.com/watch?v=2cXBNQClehA) ([slides](http://static.googleusercontent.com/media/research.google.com/en//people/jeff/bigtable-uw-2005.pdf)) 
@@ -269,7 +269,7 @@
   - [Storage Systems at a Rapidly Scaling Startup with a Small Team - Data@Scale](https://www.youtube.com/watch?v=bLyv8zKa5DU)
   - [f4: Facebook's Warm BLOB Storage System](https://www.youtube.com/watch?v=imlP3lxwGgQ)
 
-****** Distributed graph processing
+###### Distributed graph processing
   - [Giraph](https://www.youtube.com/watch?v=xyvs7NQdfZk)
   - [Apache Giraph Large Scale Graph Processing On Hadoop](https://www.youtube.com/watch?v=uXw2TKHsqvM)
   - [Processing Over a Billion Edges on Apache Giraph](https://www.youtube.com/watch?v=b5Qmz4zPj-M)
@@ -279,7 +279,7 @@
   - [GraphChi: Large-Scale Graph Computation on Just a PC](https://www.usenix.org/conference/osdi12/technical-sessions/presentation/kyrola)
   - [PowerGraph: Distributed Graph-Parallel Computation on Natural Graphs](https://www.usenix.org/conference/osdi12/technical-sessions/presentation/gonzalez)
   
-****** Stream Processing
+###### Stream Processing
   - [Heron: Real-time Stream Data Processing at Twitter](https://www.youtube.com/watch?v=pUaFOuGgmco)
   - [Samza in LinkedIn: How LinkedIn Processes Billions of Events Everyday in Real-time](https://www.infoq.com/presentations/samza-linkedin-2014)
   - [Mantis: Netflix's Event Stream Processing System](https://www.infoq.com/presentations/mantis)
@@ -288,26 +288,26 @@
   - [ETE 2012 - Nathan Marz on Storm](https://www.youtube.com/watch?v=bdps8tE0gYo)
   - [Cassandra NYC 2011: Nathan Marz - The Storm and Cassandra Realtime Computation Stack](https://www.youtube.com/watch?v=cF8a_FZwULI)
   
-****** API Design
+###### API Design
   - [How To Design A Good API and Why it Matters](https://www.youtube.com/watch?v=aAb7hSCtvGw)
   - [How to Design Great APIs - Parse Developer Day 2013](https://www.youtube.com/watch?v=qCdpTji8nxo)
   - [Google I/O 2010 - How Google builds APIs](https://www.youtube.com/watch?v=nyu5ZxGUfgs)
   - [Designing a Beautiful REST+JSON API](https://www.youtube.com/watch?v=5WXYw4J4QOU)
   
-****** Web Services and SOA
+###### Web Services and SOA
   - [Introduction to Service Design and Engineering - University of Trento, Italy](https://www.youtube.com/playlist?list=PLBdajHWwi0JCn87QuFT3e58mekU0-6WUT)
   - [REST+JSON API Design - Best Practices for Developers](https://www.youtube.com/watch?v=hdSrT4yjS1g)
   - [What is a Service Oriented Architecture?](https://www.youtube.com/watch?v=nRayJZmj2oY)
   - [Webinar : Practical SOA for the Solution Architect](https://www.youtube.com/watch?v=1KXKppaOgtY)
 
-****** Caching
+###### Caching
   - [Scaling Redis at Twitter](https://www.youtube.com/watch?v=rP9EKvWt0zo)
   - [Facebook and memcached - Tech Talk](https://www.youtube.com/watch?v=UH7wkvcf0ys)
   - [Scaling Memcache at Facebook](https://www.youtube.com/watch?v=6phA3IAcEJ8)
   - [How Netflix and reddit scale to handle massive demand](https://www.youtube.com/watch?v=zVqA7Ogutiw)
   - [An analysis of Facebook photo caching](https://www.youtube.com/watch?v=ENaQScyvOzY)
 
-****** NoSQL
+###### NoSQL
   - [Introduction to NoSQL • Martin Fowler](https://www.youtube.com/watch?v=qI_g07C_Q5I)
   - [NoSQL Distilled to an hour by Martin Fowler](https://www.youtube.com/watch?v=ASiU89Gl0F0)
   - [NoSQL Distilled • Pramod Sadalage](https://www.youtube.com/watch?v=l68zxgZS_wc)
@@ -316,14 +316,14 @@
   - [Big Data Architecture Patterns](https://www.youtube.com/watch?v=-N9i-YXoQBE)
   - [Graph Databases Exposed](https://www.youtube.com/watch?v=A44CQ4P7oWw)
 
-****** Messaging
+###### Messaging
   - [Queue It! What Job Queues Can Do for You!](https://www.infoq.com/presentations/job-queue-gearman-beanstalkd)
   - [Joydeep Sen Sarma - Messaging architecture at Facebook](https://www.youtube.com/watch?v=5hUmdoMOrpo)
   - [Messaging at Scale at Instagram](https://www.youtube.com/watch?v=E708csv4XgY)
   - [Building a Distributed Data Ingestion System with RabbitMQ](https://www.infoq.com/presentations/data-replication-rabbitmq)
   - [scaling web applications with message queues - Lenz Gschwendtner](https://www.youtube.com/watch?v=aOrGq9yb6og)
   
-****** Object Oriented Analysis and Design
+###### Object Oriented Analysis and Design
   - [Software Architecture & Design | Udacity](https://www.youtube.com/playlist?list=PLAwxTw4SYaPkMTetlG7xKWaI5ZAZFX8fL)
   - [OOSE: Software Dev Using UML and Java](https://www.youtube.com/playlist?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
   - [Eric Evans — Tackling Complexity in the Heart of Software](https://www.youtube.com/watch?v=dnUFEg68ESM)
@@ -348,7 +348,7 @@
   - [The Principles of Clean Architecture by Uncle Bob Martin](https://www.youtube.com/watch?v=o_TH-Y78tt4)
   - [Unleash Your Domain - Greg Young](https://vimeo.com/19428577)
   
-****** Misc
+###### Misc
   - [Differential Synchronization](https://www.youtube.com/watch?v=S2Hp_1jqpY8)
   - [Infrastructure at Scale: Apache Kafka, Twitter Storm & Elastic Search (ARC303) | AWS re:Invent 2013](https://www.youtube.com/watch?v=LpNbjXFPyZ0)
   - [Deepak Agarwal: Recommender Systems - The Art and Science of Matching Items to Users](https://www.youtube.com/watch?v=bRzOBGLCRbc)
@@ -359,9 +359,9 @@
   - [Large scale image processing on the fly in 25ms with Google's first Network Engineer](https://www.youtube.com/watch?v=H_9cH1tiigs)
   - [Bringing Push Notifications to the Mobile Web](https://www.youtube.com/watch?v=HbmcnjWFGbY)
   
-***** Papers
+##### Papers
 
-****** General
+###### General
   - [papers-we-love](https://github.com/papers-we-love/papers-we-love)
   - [Google Research](http://research.google.com/pubs/papers.html)
   - [Facebook Research](https://research.facebook.com/publications/)
@@ -379,13 +379,13 @@
   - [Making Reliable Distributed Systems in the Presence of Software Errors](http://www.erlang.org/download/armstrong_thesis_2003.pdf)
   - [Fallacies of Distributed Computing Explained](http://www.rgoarchitects.com/Files/fallacies.pdf)
 
-****** Search
+###### Search
   - [The Anatomy of a Large-Scale Hypertextual Web Search Engine (Google Paper)](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/334.pdf)  (<a href="http://infolab.stanford.edu/~backrub/google.html" target="_blank">Weblink</a>)
   - [The PageRank Citation Ranking: Bringing Order to the Web](http://ilpubs.stanford.edu:8090/422/1/1999-66.pdf)
   - [Web Search for a Planet: The Google Cluster Architecture](http://research.google.com/archive/googlecluster-ieee.pdf)
   - [Unicorn: A System for Searching the Social Graph](http://db.disi.unitn.eu/pages/VLDBProgram/pdf/industry/p871-curtiss.pdf)  ([FB link](https://research.facebook.com/publications/unicorn-a-system-for-searching-the-social-graph/))
 
-****** P2P
+###### P2P
   - [Chord: A scalable peer-to-peer lookup service for Internet applications](https://pdos.csail.mit.edu/papers/chord:sigcomm01/chord_sigcomm.pdf)
   - [Building peer-to-peer systems with Chord, a distributed lookup service](https://pdos.csail.mit.edu/papers/chord:hotos01/hotos8.pdf)
   - [Consistent Hashing and Random Trees: Distributed Caching Protocols for Relieving Hot Spots on the World Wide Web](https://www.akamai.com/us/en/multimedia/documents/technical-publication/consistent-hashing-and-random-trees-distributed-caching-protocols-for-relieving-hot-spots-on-the-world-wide-web-technical-publication.pdf)  ([CS 168: Consistent Hashing](http://web.stanford.edu/class/cs168/l/l1.pdf)  | [Algorithmic Nuggets in Content Delivery](http://www.sigcomm.org/sites/default/files/ccr/papers/2015/July/0000000-0000009.pdf))
@@ -393,13 +393,13 @@
   - [Pastry: Scalable, decentralized object location and routing for large-scale peer-to-peer systems](https://github.com/papers-we-love/papers-we-love/blob/master/distributed_systems/pastry-scalable-decentralized-object-location-and-routing-for-large-scale-peer-to-peer-systems.pdf)
   - [Simple Efficient Load Balancing Algorithms for Peer-to-Peer Systems](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/33339.pdf)
 
-****** Distributed Computing
+###### Distributed Computing
   - [MapReduce: Simplified Data Processing on Large Clusters](http://research.google.com/archive/mapreduce-osdi04.pdf)
   - [Resident Distributed Datasets: a Fault-Tolerant Abstraction for In-Memory Cluster Computing (Zahari et al.)](https://www.usenix.org/system/files/conference/nsdi12/nsdi12-final138.pdf)
   - [Kafka: a Distributed Messaging System for Log Processing](http://research.microsoft.com/en-us/um/people/srikanth/netdb11/netdb11papers/netdb11-final12.pdf)
 
 
-****** Distributed Database/Large-Scale Storage
+###### Distributed Database/Large-Scale Storage
   - [Dynamo: Amazon's Highly Available Key-value Datastore](http://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf)
   - [The Google File System](http://research.google.com/archive/gfs-sosp2003.pdf)
   - [Bigtable: A Distributed Storage System for Structured Data](http://research.google.com/archive/bigtable-osdi06.pdf)
@@ -412,7 +412,7 @@
   - [Cassandra - A Decentralized Structured Storage System](https://www.cs.cornell.edu/projects/ladis2009/papers/lakshman-ladis2009.pdf)
 
 
-****** Consistency
+###### Consistency
   - [Consistency Tradeoffs in Modern Distributed Database System Design](http://cs-www.cs.yale.edu/homes/dna/papers/abadi-pacelc.pdf)
   - [Paxos Made Live - An Engineering Perspective](http://www.cs.utexas.edu/users/lorenzo/corsi/cs380d/papers/paper2-1.pdf)
   - [Paxos Made Simple](https://github.com/papers-we-love/papers-we-love/blob/master/distributed_systems/paxos-made-simple.pdf)
@@ -420,14 +420,14 @@
   - [In Search of an Understandable Consensus Algorithm](https://ramcloud.stanford.edu/wiki/download/attachments/11370504/raft.pdf)
 
 
-****** Distributed Graph processing
+###### Distributed Graph processing
   - [SQLGraph: An Efficient Relational-Based Property Graph Store](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43287.pdf)
   - [One Trillion Edges: Graph Processing at FacebookScale](http://www.vldb.org/pvldb/vol8/p1804-ching.pdf)
   - [Pregel: A System for Large-Scale Graph Processing](http://kowshik.github.io/JPregel/pregel_paper.pdf)
   - [Dremel: Interactive Analysis of Web-Scale Datasets](http://static.googleusercontent.com/external_content/untrusted_dlcp/research.google.com/en/us/pubs/archive/36632.pdf)
 
 
-****** Company/Product specific
+###### Company/Product specific
   - [Scaling Memcache at Facebook](https://www.usenix.org/system/files/conference/nsdi13/nsdi13-final170_update.pdf)
   - [Realtime Data Processing at Facebook](https://fbcdn-dragon-a.akamaihd.net/hphotos-ak-xat1/t39.2365-6/13331599_975087972607457_1796386216_n/Realtime_Data_Processing_at_Facebook.pdf)
   - [Holistic Configuration Management at Facebook](https://fbcdn-dragon-a.akamaihd.net/hphotos-ak-xta1/t39.2365-6/12057212_1623087361291843_1316956191_n/Holistic_Configuration_Management_at_Facebook.pdf)
@@ -435,7 +435,7 @@
   - [Scaling Big Data Mining Infrastructure: The Twitter Experience](http://www.kdd.org/sites/default/files/issues/14-2-2012-12/V14-02-02-Lin.pdf)
   - [Large-scale cluster management at Google with Borg](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43438.pdf)
 
-****** Misc
+###### Misc
   - [Differential Synchronization](http://research.google.com/pubs/archive/35605.pdf)
   - <a href="https://www.cis.upenn.edu/~bcpierce/courses/dd/papers/lbfs.pdf" target="_blank">A Low-bandwidth Network File System</a>
   - [Maglev: A Fast and Reliable Software Network Load Balancer](http://research.google.com/pubs/archive/44824.pdf)
@@ -446,7 +446,7 @@
   - [The Log-Structured Merge-Tree](http://www.cs.umb.edu/~poneil/lsmtree.pdf)
 
 
-**** **Concurrency**
+#### ##Concurrency
   - [ ] [CS176 - Multiprocessor Synchronization - Brown University](http://cs.brown.edu/courses/cs176/course_information.shtml) ([Videos from 2012](http://www.brown.edu/cis/sta/dev/herlihy_csci1760_fa12/#vid))
   - [ ] [CS 282 (2014): Concurrent Java Network Programming in Android](https://www.youtube.com/playlist?list=PLZ9NgFYEMxp4KSJPUyaQCj7x--NQ6kvcX)
   - [ ] [CSE P 506 – Concurrency, Spring 2011 - University of Washington](https://courses.cs.washington.edu/courses/csep506/11sp/Home.html) ([Videos](https://courses.cs.washington.edu/courses/csep506/11sp/Videos.html))
@@ -457,7 +457,7 @@
   - [ ] [UIUC ECE 508 / CS 508 Manycore Parallel Algorithms spring 2019, by Wen-mei Hwu](https://www.youtube.com/playlist?list=PLRRuQYjFhpmspsME4LmLbuCG1VHbJmIcy)
   - [ ] [UIUC CS 420 / ECE 492 / CSE 402 Introduction to Parallel Programming for Scientists and Engineers fall 2015, by Sanjay Kale](https://www.youtube.com/playlist?list=PL682UO4IMem9cAjfy_RPjAc6k-HPYpTa9)
   - [ ] [Stanford CME 213 Introduction to Parallel Computing using MPI, openMP, and CUDA winter 2020, by Eric Darve](https://www.youtube.com/playlist?list=PLAtMgFDMfGy2mysjPHN_d1cf9sR1muRkq)
-**** **Mobile Application Development**
+#### ##Mobile Application Development
   - [ ] [MOOC Programming Mobile Applications for Android Handheld Systems - University of Maryland](https://www.youtube.com/playlist?list=PLkHsKoi6eZnwilGXUc95CqS7Vw4uLLDLG)
   - [ ] [CS 193p - Developing Applications for iOS, Stanford University](https://cs193p.sites.stanford.edu/)
   - [ ] [CS S-76 Building Mobile Applications - Harvard](http://cs76.tv/2013/summer/)
@@ -472,7 +472,7 @@
   - [ ] [Mobile Computing - IIT Madras](https://nptel.ac.in/courses/106106147/)
   - [ ] [Mobile Information Systems - Bauhaus-Uni Weimar](https://www.youtube.com/watch?v=8EmbrZJwMOI&list=PLjEglKdMOevWv4zPW0diw7iJFdT7s4sTP)
 
-*** Artificial Intelligence
+### Artificial Intelligence
 
 - [ ] [CS50 - Introduction to Artificial Intelligence with Python (and Machine Learning), Harvard OCW](https://cs50.harvard.edu/ai/2023/)
 - [ ] [CS 188 - Introduction to Artificial Intelligence, UC Berkeley - Spring 2023](https://www.youtube.com/playlist?list=PLp8QV47qJEg7WWVg_5eOECzVPpy23UjJz)
@@ -499,9 +499,9 @@
 - [ ] [T81-558: Applications of Deep Neural Networks by Jeff Heaton, 2022, Washington University in St. Louis](https://sites.wustl.edu/jeffheaton/t81-558/)
 - [ ] [MSU programming for AI](https://www.youtube.com/playlist?list=PLZ-krWGO-UEz84TseDMIlx2Set6xZp0YP)
 
-*** Machine Learning
+### Machine Learning
 
-**** **Introduction to Machine Learning**
+#### ##Introduction to Machine Learning
   - [ ] [Introduction to Machine Learning for Coders](https://course18.fast.ai/ml)
   - [ ] [MOOC - Statistical Learning, Stanford University](http://www.dataschool.io/15-hours-of-expert-machine-learning-videos/)
   - [ ] [Statistical Learning with Python - Stanford Online](https://www.youtube.com/playlist?list=PLoROMvodv4rPP6braWoRt5UCXYZ71GZIQ)
@@ -594,7 +594,7 @@
   - [ ] [CS 229r - Algorithms for Big Data, Harvard University](http://people.seas.harvard.edu/~minilek/cs229r/fall15/lec.html) ([Youtube](https://www.youtube.com/playlist?list=PL2SOU6wwxB0v1kQTpqpuu5kEJo2i-iUyf))
   - [ ] [Algorithms for Big Data - IIT Madras](https://nptel.ac.in/courses/106106142/)
   - [ ] [Python Data Science with the TCLab](https://github.com/APMonitor/data_science) ([YouTube](https://www.youtube.com/watch?v=pAgW_bZVo88&list=PLLBUgWXdTBDg1Qgmwt4jKtVn9BWh5-zgy))
-**** **Data Mining**
+#### ##Data Mining
   - [ ] [CSEP 546, Data Mining - Pedro Domingos, Sp 2016 - University of Washington](https://courses.cs.washington.edu/courses/csep546/16sp/) ([YouTube](https://www.youtube.com/playlist?list=PLTPQEx-31JXgtDaC6-3HxWcp7fq4N8YGr))
   - [ ] [CS 5140/6140 - Data Mining, Spring 2020, University of Utah by Prof. Jeff Phillips](https://users.cs.utah.edu/~jeffp/teaching/cs5140-S20/cs5140.html) ([Youtube](https://www.youtube.com/playlist?list=PLbuogVdPnkCrEf65zrd3J1UG3LT6TcDlt))
   - [ ] [CS 5140/6140 - Data Mining, Spring 2023, University of Utah by Prof. Ana Marasović](https://utah-data-mining-spring23.github.io/) ([Youtube](https://www.youtube.com/playlist?list=PLbuogVdPnkCrnLNqZPnTuG_s19TNDoad0))
@@ -607,12 +607,12 @@
   - [ ] [CS246 - Mining Massive Data Sets, Winter 2016, Stanford University](https://web.stanford.edu/class/cs246/) ([YouTube](https://www.youtube.com/channel/UC_Oao2FYkLAUlUVkBfze4jg/videos))
   - [ ] [Information Retrieval - Spring 2018 - ETH Zurich](https://www.youtube.com/playlist?list=PLzn6LN6WhlN1ktkDvNurPSDwTQ_oGQisn)
   - [ ] [CAP6673 - Data Mining and Machine Learning - FAU](http://www.cse.fau.edu/~taghi/classes/cap6673/)([Video lectures](https://vimeo.com/album/1505953))
-**** **Probabilistic Graphical Modeling**
+#### ##Probabilistic Graphical Modeling
   - [ ] [CS 6190 - Probabilistic Modeling, Spring 2016, University of Utah](https://www.youtube.com/playlist?list=PLbuogVdPnkCpvxdF-Gy3gwaBObx7AnQut)
   - [ ] [10-708 - Probabilistic Graphical Models, Carnegie Mellon University](https://www.cs.cmu.edu/~epxing/Class/10708-20/lectures.html)
   - [ ] [Probabilistic Graphical Models, Daphne Koller, Stanford University](http://openclassroom.stanford.edu/MainFolder/CoursePage.php?course=ProbabilisticGraphicalModels)
   - [ ] [Probabilistic Graphical Models, Spring 2018 - Notre Dame](https://www.youtube.com/playlist?list=PLd-PuDzW85AcV4bgdu7wHPL37hm60W4RM)
-**** **Deep Learning**
+#### ##Deep Learning
   - [ ] [Full Stack Deep Learning - Course 2022](https://www.youtube.com/watch?v=-Iob-FW5jVM&list=PL1T8fO7ArWleMMI8KPJ_5D5XSlovTW_Ur)
   - [ ] [Full Stack Deep Learning - Course 2021](https://www.youtube.com/watch?v=fGxWfEuUu0w&list=PL1T8fO7ArWlcWg04OgNiJy91PywMKT2lv)
   - [ ] [NYU Deep Learning Spring 2020](https://www.youtube.com/playlist?list=PLLHTzKZzVU9eaEyErdV26ikyolxOsz6mq)
@@ -653,7 +653,7 @@
   - [ ] [ETH Zürich | Deep Learning in Scientific Computing 2023](https://www.youtube.com/playlist?list=PLJkYEExhe7rYY5HjpIJbgo-tDZ3bIAqAm)
   - [ ] [CS294 Deep Unsupervised Learning Spring 2024](https://sites.google.com/view/berkeley-cs294-158-sp24/home)
   - [ ] [Applied Deep Learning Maziar Raissi](https://www.youtube.com/playlist?list=PLoEMreTa9CNmuxQeIKWaz7AVFd_ZeAcy4)
-**** **Reinforcement Learning**
+#### ##Reinforcement Learning
   - [ ] [CS234: Reinforcement Learning - Winter 2019 - Stanford University](https://www.youtube.com/playlist?list=PLoROMvodv4rOSOPzutgyCTapiGlY2Nd8u)
   - [ ] [Introduction to reinforcement learning - UCL](https://www.youtube.com/playlist?list=PLqYmG7hTraZDM-OYHWgPebj2MfCFzFObQ)
   - [ ] [Reinforcement Learning - IIT Madras](https://www.youtube.com/playlist?list=PLyqSpQzTE6M_FwzHFAyf4LSkz_IjMyjD9)
@@ -675,7 +675,7 @@
   - [ ] [ECE524 Foundations of Reinforcement Learning at Princeton University, Spring 2024](https://www.youtube.com/playlist?list=PLYXvCE1En13epbogBmgafC_Yyyk9oQogl)
   - [ ] [REINFORCEMENT LEARNING AND OPTIMAL CONTROL - Dimitri P. Bertsekas, ASU](https://web.mit.edu/dimitrib/www/RLbook.html)
   - [ ] [CMU 16 745 Optimal Control and Reinforcement Learning spring by Zac Manchester](https://www.youtube.com/@roboticexplorationlab3724/playlists)
-**** **Advanced Machine Learning**
+#### ##Advanced Machine Learning
   - [ ] [Advanced Machine Learning, 2021-2022, Sem I - by Prof. Madhavan Mukund, CMI](https://www.cmi.ac.in/~madhavan/courses/aml2021)
   - [ ] [18.409 Algorithmic Aspects of Machine Learning Spring 2015 - MIT](https://www.youtube.com/playlist?list=PLB3sDpSRdrOvI1hYXNsa6Lety7K8FhPpx)
   - [ ] [CS 330 - Deep Multi-Task and Meta Learning - Fall 2019 - Stanford University](https://cs330.stanford.edu/) ([Youtube](https://www.youtube.com/playlist?list=PLoROMvodv4rMC6zfYmnD7UG3LVvwaITY5))
@@ -683,7 +683,7 @@
   - [ ] [ES 661 (2023): Probabilistic Machine Learning - IIT Gandhinagar](https://www.youtube.com/playlist?list=PLftoLyLEwECBEJyfRBJoSBd0UaTjEcs3I)
   - [ ] [Information Retrieval in High Dimensional Data](https://www.youtube.com/playlist?list=PLaE1lKCe0jH3ePp9wCU1ygTquVOXY-UYv)
   - [ ] [Trustworthy Machine Learning - Winter Semester 2023-2024, University of Tübingen](https://scalabletrustworthyai.github.io/courses/tml_winter_2324/)
-**** **Natural Language Processing**
+#### ##Natural Language Processing
   - [ ] [CS 224N -Natural Language Processing with Deep Learning - Stanford University](http://web.stanford.edu/class/cs224n/) ([Lectures - Winter 2019](https://youtube.com/playlist?list=PLoROMvodv4rOhcuXMZkNm7j3fVwBBY42z)) ([Lectures - Winter 2021](https://youtube.com/playlist?list=PLoROMvodv4rOSH4v6133s9LFPRHjEmbmJ))
   - [ ] [CS 224N - Natural Language Processing, Stanford University](https://web.stanford.edu/~jurafsky/NLPCourseraSlides.html) ([Lecture videos](https://academictorrents.com/details/d2c8f8f1651740520b7dfab23438d89bc8c0c0ab))
   - [ ] [Stanford XCS224U: Natural Language Understanding I Spring 2023](https://www.youtube.com/playlist?list=PLoROMvodv4rOwvldxftJTmoR3kRcWkJBp)
@@ -707,10 +707,10 @@
   - [ ] [Natural Language Processing (IN2361) - TUM](https://live.rbg.tum.de/?year=2019&term=W&slug=nlp&view=3)
   - [ ] [CS 886: Recent Advances on Foundation Models Winter 2024 - University of Waterloo](https://cs.uwaterloo.ca/~wenhuche/teaching/cs886/)
   - [ ] [UC Berkeley CS 194/294-267 Understanding Large Language Models Foundations and Safety spring 2024, by Dawn Song & Dan Hendrycks](https://www.youtube.com/playlist?list=PLJ66BAXN6D8H_gRQJGjmbnS5qCWoxJNfe)
-**** **Generative AI**
+#### ##Generative AI
   - [ ] [Stanford CS236: Deep Generative Models I 2023 I Stefano Ermon](https://www.youtube.com/playlist?list=PLoROMvodv4rPOWA-omMM6STXaWW4FvJT8)
   - [ ] [CS 6785 - Deep Generative Models - Cornell Tech, Spring 2023)](https://www.youtube.com/playlist?list=PL2UML_KCiC0UPzjW9BjO-IW6dqliu9O4B)
-**** **Computer Vision**
+#### ##Computer Vision
   - [ ] [CS 231n - Convolutional Neural Networks for Visual Recognition, Stanford University](https://www.youtube.com/playlist?list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv)
   - [ ] [CS 198-126: Modern Computer Vision Fall 2022 (UC Berkeley)](https://www.youtube.com/playlist?list=PLzWRmD0Vi2KVsrCqA4VnztE4t71KnTnP5)
   - [ ] [Machine Learning for Robotics and Computer Vision, WS 2013/2014 - TU München](https://vision.in.tum.de/teaching/ws2013/ml_ws13) ([YouTube](https://www.youtube.com/playlist?list=PLTBdjV_4f-EIiongKlS9OKrBEp8QR47Wl))
@@ -720,10 +720,10 @@
   - [ ] [Deep Learning for Computer Vision - University of Michigan](https://www.youtube.com/playlist?list=PL5-TkQAfAZFbzxjBHtzdVCWE0Zbhomg7r)
   - [ ] [Extreme Classification ](https://www.youtube.com/watch?v=v0rAVyF4rWA&list=PLXtAHOcKKDTk43wjXud9GQS-l-QA5DQxH&pp=iAQB)
   - [ ] [EECS 498/598 - Deep Learning for Computer Vision - University of Michigan - Fall 2019](https://web.eecs.umich.edu/~justincj/teaching/eecs498/FA2019/) ([Youtube](https://www.youtube.com/playlist?list=PL5-TkQAfAZFbzxjBHtzdVCWE0Zbhomg7r))
-**** **Time Series Analysis**
+#### ##Time Series Analysis
   - [ ] [02417 Time Series Analysis](https://www.youtube.com/playlist?list=PLtiTxpFJ4k6TZ0g496fVcQpt_-XJRNkbi)
   - [ ] [Applied Time Series Analysis](https://www.youtube.com/playlist?list=PLl0FT6O_WWDBm-4W-eoK34omYmEMseQDX)
-**** **Optimization**
+#### ##Optimization
   - [ ] [Optimisation for Machine Learning: Theory and Implementation (Hindi) - IIT](https://www.youtube.com/playlist?list=PLyqSpQzTE6M-pmLzCoMu_ANU6atEFyyJl)
   - [ ] [EE364a: Convex Optimization I - Stanford University](https://www.youtube.com/playlist?list=PLoROMvodv4rMJqxxviPa4AmDClvcbHi6h)
   - [ ] [10-725 Convex Optimization, Spring 2015 - CMU](http://www.stat.cmu.edu/~ryantibs/convexopt-S15/)
@@ -734,7 +734,7 @@
   - [ ] [UCSD CS292F Convex Optimization Spring 2020, by Yu-Xiang Wang](https://cseweb.ucsd.edu/~yuxiangw/classes/CS292F-2020Spring/) ([Youtube](https://www.youtube.com/playlist?list=PLTN4aNO9NiB5VxYILKPBXoy9g1tUqmnBx))
   - [ ] [University of Wisconsin-Madison ISyE/Math/CS/Stat 525 Linear Optimization fall 2021, by Alberto Del Pia](https://www.youtube.com/playlist?list=PLeO_PhASIA0Ot69TqANAnNxoykHGOQp2Y)
   - [ ] [University of Wisconsin-Madison ISyE/Math/CS 728 Integer Optimization (second part of the course) spring 2020](https://www.youtube.com/playlist?list=PLeO_PhASIA0NlDNF9y-SsgVEYcvAMj2CY)
-**** **Misc Machine Learning Topics**
+#### ##Misc Machine Learning Topics
   - [ ] [Quantum Machine Learning | 2021 Qiskit Global Summer School](https://www.youtube.com/playlist?list=PLOFEBzvs-VvqJwybFxkTiDzhf5E11p8BI)
   - [ ] [CS 6955 - Clustering, Spring 2015, University of Utah](https://www.youtube.com/playlist?list=PLbuogVdPnkCpRvi-qSMCdOwyn4UYoPxTI)
   - [ ] [Info 290 - Analyzing Big Data with Twitter, UC Berkeley school of information](http://blogs.ischool.berkeley.edu/i290-abdt-s12/) ([YouTube](https://www.youtube.com/playlist?list=PLE8C1256A28C1487F))
@@ -763,7 +763,7 @@
   - [ ] [UIUC STAT 437 Unsupervised Learning spring 2024, by Tori Ellison](https://www.youtube.com/playlist?list=PLIygTcviGPKB133Vh7zxsxFoblyfS4P5Y)
   - [ ] [University of Wisconsin-Madison CS/ECE 561 - Probability and Information Theory in Machine Learning fall 2020, by Matthew Malley](https://mediaspace.wisc.edu/channel/CS_ECE%2B561%2B-%2BProbability%2Band%2BInfo%2BTheory%2Bin%2BMachine%2BLearning/191748913)
 
-*** Computer Networks
+### Computer Networks
 
 - [ ] [CS 144 Introduction to Computer Networking - Stanford University, Fall 2013](http://www.scs.stanford.edu/10au-cs144/) ([Lecture videos](https://www.youtube.com/playlist?list=PL6RdenZrxrw9inR-IJv-erlOKRHjymxMN))
 - [ ] [Computer Networking: A Top-Down Approach](https://www.youtube.com/playlist?list=PLm556dMNleHc1MWN5BX9B2XkwkNE2Djiu)
@@ -789,17 +789,17 @@
 - [ ] [Internetworking with TCP/IP by Prof. Dr. Christoph Meinel - HPI](https://www.youtube.com/playlist?list=PLoOmvuyo5UAfY5VrkObHTckZHwPsS1VCA)
 - [ ] [CS798: Mathematical Foundations of Computer Networking - University of Waterloo](https://www.youtube.com/playlist?list=PLFB088DB91845CA34)
 
-*** Math for Computer Scientist
+### Math for Computer Scientist
 
 - [ ] [Maths courses all topics covered - Khan Academy](https://www.khanacademy.org/math/)
-- **Calculus**
+- ##Calculus
   - [ ] [18.01 Single Variable Calculus, Fall 2006 - MIT OCW](https://ocw.mit.edu/courses/mathematics/18-01-single-variable-calculus-fall-2006/)
   - [ ] [18.02 Multivariable Calculus, Fall 2007 - MIT OCW](https://ocw.mit.edu/courses/mathematics/18-02-multivariable-calculus-fall-2007/)
   - [ ] [18.03 Differential Equations, Spring 2010 - MIT OCW](https://ocw.mit.edu/courses/mathematics/18-03-differential-equations-spring-2010/)
   - [ ] [Highlights of Calculus - Gilbert Strang, MIT OCW](https://ocw.mit.edu/resources/res-18-005-highlights-of-calculus-spring-2010/)
   - [ ] [MAT123 Introduction to Calculus (Fall 2015) - Stony Brook](https://www.math.stonybrook.edu/~scott/mat123.fall15/)
   - [ ] [Vector Calculus for Engineers - HKUST](https://www.youtube.com/playlist?list=PLkZjai-2JcxnYmkg6fpzz4WFumGVl7MOa)
-- **Discrete Math**
+- ##Discrete Math
   - [ ] [6.042J - Mathematics for Computer Science, MIT OCW](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/video_galleries/video-lectures/)
   - [ ] [Computer Science 70, 001 - Spring 2015](https://www.youtube.com/playlist?list=-XXv-cvA_iD8wQm8U0gG_Z1uHjImKXFy)
   - [ ] [CSE 547 Discrete Mathematics, Prof Skiena, University of Stony Brook](http://www3.cs.stonybrook.edu/~algorith/math-video/)
@@ -808,7 +808,7 @@
   - [ ] [Discrete Mathematical Structures - IIT Madras](https://nptel.ac.in/courses/106106094/)
   - [ ] [Discrete Structures - Pepperdine University](https://itunes.apple.com/us/course/discrete-structures/id546468789)
   - [ ] [CMU 21 228 Discrete Mathematics spring 2021, by Po-Shen Loh](https://www.youtube.com/playlist?list=PLgTkKBA6LRqYuuQ-LboerRblBoD_q_eUM)
-- **Probability & Statistics**
+- ##Probability & Statistics
   - [ ] [Statistics - CrashCourse](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNM_Y-bUAhblSAdWRnmBUcr)
   - [ ] [6.041 Probabilistic Systems Analysis and Applied Probability - MIT OCW](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/)
   - [ ] [Stanford CS109 Introduction to Probability for Computer Scientists I 2022 I Chris Piech](https://www.youtube.com/playlist?list=PLoROMvodv4rOpr_A7B9SriE_iZmkanvUg)
@@ -848,7 +848,7 @@
   - [ ] [UCLA Stats 102A Introduction to Computational Statistics with R winter 2024, by Miles Chen](https://www.youtube.com/playlist?list=PLIygTcviGPKCiE3kiMI7ofuQ3wmXQUcmx)
   - [ ] [UCLA Stats 102B Computation and Optimization for Statistics spring 2024, by Miles Chen](https://www.youtube.com/playlist?list=PLIygTcviGPKD4XftRgjRlTITljOx792YN)
   - [ ] [UCLA Stats 102C Introduction to Monte Carlo Methods fall 2023, by Miles Chen](https://www.youtube.com/playlist?list=PLIygTcviGPKDv0fZ7RxMGPuaa1Yqx_bzh)
-- **Linear Algebra**
+- ##Linear Algebra
   - [ ] [Mathematical Foundations of Machine Learning (Fall 2021) - University of Chicago - Rebecca Willett](https://willett.psd.uchicago.edu/teaching/mathematical-foundations-of-machine-learning-fall-2021/)
   - [ ] [18.06 - Linear Algebra, Prof. Gilbert Strang, MIT OCW](https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/)
   - [ ] [18.065 Matrix Methods in Data Analysis, Signal Processing, and Machine Learning - MIT OCW](https://ocw.mit.edu/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/video_galleries/video-lectures/)
@@ -894,7 +894,7 @@
 - [ ] [MSU Math for Computing](https://www.youtube.com/playlist?list=PLZ-krWGO-UEyLqtyA2pACX_tXXBTLWkI1)
 - [ ] [Mathematics of Data Science - ETH Zurich](https://www.youtube.com/playlist?list=PLiud-28tsatIKUitdoH3EEUZL-9i516IL)
 
-*** Web Programming and Internet Technologies
+### Web Programming and Internet Technologies
 
 - [ ] [CS50's Web Programming with Python and JavaScript](https://www.edx.org/course/cs50s-web-programming-with-python-and-javascript)
 - [ ] [Web Design Decal - HTML/CSS/JavaScript Course, University of California, Berkeley](http://wdd.io/)
@@ -911,7 +911,7 @@
 - [ ] [MOOC - Web Development - Udacity](https://www.youtube.com/playlist?list=PLAwxTw4SYaPlLXUhUNt1wINWrrH9axjcI)
 - [ ] [Web Technologies Prof. Dr. Christoph Meinel - HPI](https://open.hpi.de/courses/webtech2015/items/4oqxq6euKfhXgHOMwFBxbn)
 
-*** Theoretical CS and Programming Languages
+### Theoretical CS and Programming Languages
 
 - [ ] [MOOC - Compilers - Stanford University](https://archive.org/details/academictorrents_e31e54905c7b2669c81fe164de2859be4697013a)
 - [ ] [CS 6120: Advanced Compilers: The Self-Guided Online Course - Cornell University](https://www.cs.cornell.edu/courses/cs6120/2020fa/self-guided/)
@@ -972,7 +972,7 @@
 - [ ] [CMU 21 738 Extremal Combinatorics spring 2020, by Po-Shen Loh](https://www.youtube.com/playlist?list=PLgTkKBA6LRqaGKITvQS1QuIBoEbOVwFTm)
 - [ ] [JHU Domain-Specific Languages (DSL) Class (Summer 2018)](https://www.youtube.com/playlist?list=PLW-6wqFEcgTqHMXV_8jI43QLkCv8VgqLk)
 
-*** Embedded Systems
+### Embedded Systems
 
 - [ ] [EE319K Embedded Systems - UT Austin](http://users.ece.utexas.edu/~valvano/Volume1/E-Book/VideoLinks.htm)
 - [ ] [EE445L Embedded Systems Design Lab, Fall 2015, UTexas](https://www.youtube.com/playlist?list=PLyg2vmIzGxXGBxFu8nvX3KBadSdsNAvbA)
@@ -997,7 +997,7 @@
 - [ ] [NOC:Advanced IOT Applications - IISc Bangalore](https://nptel.ac.in/courses/108/108/108108123/)
 - [ ] [NOC:Design for internet of things - IISc Bangalore](https://nptel.ac.in/courses/108/108/108108098/)
 
-*** Real time system evaluation
+### Real time system evaluation
 
 - [ ] [Performance evaluation of Computer systems - IIT Madras](https://nptel.ac.in/courses/106/106/106106048/)
 - [ ] [Real Time systems - IIT Karaghpur](https://nptel.ac.in/courses/106/105/106105036/)
@@ -1009,9 +1009,9 @@
 - [ ] [UCLA Stats 205 Hierarchical Linear Models spring 2024, by Jingyi Jessica Li](https://www.youtube.com/playlist?list=PLAYxx7zX5F1O2HbRr4gORnscbM9EszYbK)
 - [ ] [UF EML 6934 Optimal Control spring 2012, by Anil V. Rao](https://www.youtube.com/playlist?list=PLIygTcviGPKBCJ9JyHfBi4ftc9FDCtaBc)
 
-*** Computer Organization and Architecture
+### Computer Organization and Architecture
 
-- **Computer Organization**
+- ##Computer Organization
   - [ ] [How Computers Work - Aduni](http://aduni.org/courses/hcw/index.php?view=cw)
   - [ ] [CS 61C - Machine Structures, UC Berkeley Spring 2015](http://www.infocobuild.com/education/audio-video-courses/computer-science/cs61c-spring2015-berkeley.html)
   - [ ] [6.004 - Computation Structures Spring 2013, MIT](https://www.youtube.com/playlist?list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-)
@@ -1020,7 +1020,7 @@
   - [ ] [Computer Organization - IIT Madras](https://nptel.ac.in/courses/106106092/)
   - [ ] [CS-224 - Computer Organization, 2009-2010 Spring, Bilkent University](http://video.bilkent.edu.tr/course_videos.php?courseid=16) ([YouTube playlist](https://www.youtube.com/playlist?list=PLhwVAYxlh5dvB1MkZrcRZy6x_a2yORNAu))
   - [ ] [INFORMATICS 2C - INTRODUCTION TO COMPUTER SYSTEMS (AUTUMN 2016) - University of Edinburgh](http://groups.inf.ed.ac.uk/vision/VIDEO/2014/inf2c-cs.htm)
-- **Computer Architecture**
+- ##Computer Architecture
   - [ ] [18-447 - Introduction to Computer Architecture, CMU](http://www.ece.cmu.edu/~ece447/s15/doku.php?id=schedule) ([Lectures - YouTube - Fall 15](https://youtube.com/playlist?list=PL5PHm2jkkXmi5CxxI7b3JCL1TWybTDtKq))
   - [ ] [CSEP 548 - Computer Architecture Autumn 2012 - University of Washington](https://courses.cs.washington.edu/courses/csep548/12au/video/index.html)
   - [ ] [CS/ECE 6810 Computer Architecture, Spring 2016, University of Utah](http://www.cs.utah.edu/~rajeev/cs6810/) ([YouTube](https://www.youtube.com/playlist?list=PL8EC1756A7B1764F6))
@@ -1032,14 +1032,14 @@
   - [ ] [Computer Architecture - IIT Madras](https://nptel.ac.in/courses/106106134/)
   - [ ] [High Performance Computer Architecture - IIT Kharagpur](https://nptel.ac.in/courses/106105033/)
   - [ ] [BE5B35APO - Computer Architectures, Spring 2022, CTU - FEE](https://cw.fel.cvut.cz/b212/courses/b35apo/en/lectures/start) ([YouTube - Spring 2022](https://www.youtube.com/playlist?list=PLQL6z4JeTTQnTrML7HgagbjdpCtvdyu0M)) ([RISC-V simulator - QtRvSim](https://comparch.edu.cvut.cz/))
-- **Parallel Computer Architecture**
+- ##Parallel Computer Architecture
   - [ ] [15-418 - Parallel Computer Architecture and Programming, CMU](http://15418.courses.cs.cmu.edu/spring2015/) ([Lecture Videos](https://scs.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx#folderID=%22a5862643-2416-49ef-b46b-13465d1b6df0%22))
   - [ ] [CS 267 Applications of Parallel Computers, Spring 16 - UC Berkeley](https://people.eecs.berkeley.edu/~demmel/cs267_Spr16/) ([YouTube](https://www.youtube.com/playlist?list=PLkFD6_40KJIzSfxr35ZT59-LZcibZmfp2))
   - [ ] [MOOC - Heterogeneous Parallel Programming - Coursera](http://academictorrents.com/details/8903d0871c652b96c7b29db738cea76902d65888)
   - [ ] [ECE 498AL - Programming Massively Parallel Processors](https://nanohub.org/resources/7225)
   - [ ] [Parallel Computing - IIT Delhi](https://nptel.ac.in/courses/106102114/)
   - [ ] [Parallel Architectures 2012/13- University of Edinburgh](http://groups.inf.ed.ac.uk/vision/VIDEO/2012/pa.htm)
-- **Digital Systems Design**
+- ##Digital Systems Design
   - [ ] [ELEC2141 Digital Circuit Design, UNSW](https://www.youtube.com/playlist?list=PLB52B8F4E464CEEF7)
   - [ ] [Digital Systems Design - IIT Kharagpur](https://nptel.ac.in/courses/117105080/)
   - [ ] [Digital Design Course - 2015 - UNCC](https://www.youtube.com/playlist?list=PLPIqCiMhcdO7bBmieyG5u41x2Ogcn67Bs)
@@ -1060,7 +1060,7 @@
 - [ ] [CMU 11 751 / 18 781 Speech Recognition and Understanding fall 2022, by Shinji Watanabe](https://www.youtube.com/playlist?list=PLfVqr2l0FG-u7chWKPQMDoT0o-I2ejxeK)
 - [ ] [CMU 11 492 Speech Processing fall 2021, by Alan W. Black](https://www.youtube.com/playlist?list=PL682UO4IMem9InUp3CZHL4g7IwzfKXe3c)
 
-*** Security
+### Security
 
 - [ ] [Internet Security (WT 2018/19) - HPI University of Potsdam](https://www.tele-task.de/series/1227/)
 - [ ] [6.1600 Foundations of Computer Security - MIT Fall 2023](https://61600.csail.mit.edu/2023/)
@@ -1098,7 +1098,7 @@
 - [ ] [UC Berkeley CS 161 Computer Security, Summer 2021, by Nicholas Ngai and Peyrin Kao](https://www.youtube.com/playlist?list=PLIygTcviGPKAPoe_0mUsXYaxZfsFyQyFE)
 - [ ] [UCSD CS291A Differential Privacy Fall 2021, by Yu-Xiang Wang](https://cseweb.ucsd.edu/~yuxiangw/classes/DPCourse-2021Fall/) ([Youtube](https://www.youtube.com/playlist?list=PLTN4aNO9NiB7UiBbSFznHRSkdieBc0-sk))
 
-*** Computer Graphics
+### Computer Graphics
 
 - [ ] [ECS 175 - Computer Graphics, Fall 2009 - UC Davis](https://itunes.apple.com/us/itunes-u/computer-graphics-fall-2009/id457893733?mt=10)
 - [ ] [6.837 - Computer Graphics - Spring 2017 - MIT](https://www.youtube.com/playlist?list=PLkHIj5SCfn3_PCotoqTetMpJc_jkpkgLt)
@@ -1116,7 +1116,7 @@
 - [ ] [CS 468 - Differential Geometry for Computer Science - Stanford University](http://graphics.stanford.edu/courses/cs468-13-spring/schedule.html) ([Lecture videos](https://www.youtube.com/playlist?list=PL_deCdukpyu1rdH85XsEEREbpoqEauiJl))
 - [ ] [CMU 15-462/662: Computer Graphics](http://15462.courses.cs.cmu.edu/fall2020/)
 
-*** Image Processing and Computer Vision
+### Image Processing and Computer Vision
 
 - [ ] [Digital Image Processing - IIT Kharagpur](https://nptel.ac.in/courses/117105079/)
 - [ ] [CS 543 - Computer Vision – Spring 2017](https://courses.engr.illinois.edu/cs543/sp2017/) ([Recordings](https://echo360.org/section/283b0471-3d9f-4efb-9c51-bc00e778735e/home))
@@ -1146,7 +1146,7 @@
 - [ ] [Photogrammetry II Course 2020/21 - University of Bonn](https://www.ipb.uni-bonn.de/photo2-2020/)
 - [ ] [3D Computer Vision - National University of Singapore](https://www.youtube.com/playlist?list=PLxg0CGqViygP47ERvqHw_v7FVnUovJeaz)
 
-*** Computational Physics
+### Computational Physics
 
 - [ ] [Statistics and Machine Learning for Astronomy](https://www.youtube.com/playlist?list=PLo4wAAMJnA1wDQ2ZmTJCaBYdrXqBWUwT5)
 - [ ] [Astronomical data analysis using Python 2021 - NRC IUCAA](https://www.youtube.com/playlist?list=PL3jLiVc5sr3P7Uov0VFsEfwPOEG1rF-FO)
@@ -1159,7 +1159,7 @@
 - [ ] [Landau Computational Physics Course](https://www.youtube.com/playlist?list=PLnWQ_pnPVzmJnp794rQXIcwJIjwy7Nb2U)
 - [ ] [Statistical Methods and Machine Learning in High Energy Physics](https://www.youtube.com/playlist?list=PL04QVxpjcnjjKDki5FHlKQ8839TGHvj8y)
 
-*** Quantum Computing
+### Quantum Computing
 
 - [ ] [15-859BB: Quantum Computation and Quantum Information 2018 - CMU](https://www.cs.cmu.edu/~odonnell/quantum18/) ([Youtube](https://www.youtube.com/playlist?list=PLm3J0oaFux3YL5qLskC6xQ24JpMwOAeJz))
 - [ ] [Quantum Computation and Information at CMU](https://www.youtube.com/playlist?list=PLm3J0oaFux3YL5qLskC6xQ24JpMwOAeJz)
@@ -1184,7 +1184,7 @@
 - [ ] [Quantum computing for the determined - Michael Nielsen](https://www.youtube.com/playlist?list=PL1826E60FD05B44E4)
 - [ ] [Quantum Computing](https://www.youtube.com/playlist?list=PLxP0p--aBHmIe--9rczWe4AZmw03e2bz0)
 
-*** Robotics and Control
+### Robotics and Control
 
 - [ ] [ROB 101: Computational Linear Algebra - University of Michigan](https://github.com/michiganrobotics/rob101/tree/main/Fall%202021) ([Youtube - Fall 2021](https://www.youtube.com/playlist?list=PLdPQZLMHRjDJ5d_dE4FeOviv0gRe4UYsB))
 - [ ] [ROB 102: Introduction to AI and Programming - University of Michigan](https://robotics102.github.io/)
@@ -1245,7 +1245,7 @@
 - [ ] [UIUC CS 588 Autonomous Vehicle System Engineering fall 2021, by David Forsyth](http://luthuli.cs.uiuc.edu/~daf/courses/MAAV-21/588-2021-records.html)
 - [ ] [EPFL ME 425 Model Predictive Control fall 2020, by Colin Jones](https://www.youtube.com/playlist?list=PLHmHXT53cpnkpbwLqlKae0iKexM8SXKDM)
 
-*** Computational Finance
+### Computational Finance
 
 - [ ] [COMP510 - Computational Finance - Steven Skiena - 2007 HKUST](https://www.youtube.com/playlist?list=PL9E205B8FAAD530E1)
 - [ ] [Computational Finance Course - Prof Grzelak](https://www.youtube.com/playlist?list=PL6zzGYGhbWrPaI-op1UfNl0uDglxdkaOB)
@@ -1266,13 +1266,13 @@
 
 ### Misc
 
-- **HCI**
+- ##HCI
   - [ ] [CS147 - Introduction to Human-Computer Interaction Design - Stanford](https://hci.stanford.edu/courses/cs147/2015/au/calendar.php)
   - [ ] [CSEP 510 - Human Computer Interaction](https://courses.cs.washington.edu/courses/csep510/04wi/)
   - [ ] [Programming for Designers - COMP1400-T2 (2010) - UNSW](https://www.youtube.com/playlist?list=PL9444191613E018CC)
   - [ ] [08-763 Intro to HCI for Technology Executives - Fall 2015 - CMU](https://scs.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx#folderID=%228bb9f417-9f60-4e00-84f6-4ef8e7425ae1%22&maxResults=150)
   - [ ] [05-600 HCI Pro Seminar - Fall 2015 - CMU](https://scs.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx#folderID=%22d885fd87-1ba1-47a3-9bd2-c4bde55f9749%22&maxResults=150)
-- **Geospatial**
+- ##Geospatial
   - [ ] [Introduction to Spatial Data Science, Autumn 2016, University of Chicago](https://www.youtube.com/playlist?list=PLzREt6r1Nenkr2vtYgbP4hs44HO_s_qEO)
   - [ ] [Spatial Regression Analysis, Spring 2017, University of Chicago](https://www.youtube.com/playlist?list=PLzREt6r1Nenkk7x197-CKPFZ0BuAOCRGT)
   - [ ] [Spatial Data Science, Autumn 2017, University of Chicago](https://www.youtube.com/playlist?list=PLzREt6r1Nenlu-MBaxCRL2KZNk62n7o1g)

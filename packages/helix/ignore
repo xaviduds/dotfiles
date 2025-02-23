@@ -11,3 +11,6 @@
 .vscode
 .stremio-server
 .pg
+.cabal
+.eclipse
+go

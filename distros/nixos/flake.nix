@@ -1,7 +1,5 @@
-{
-  inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
-    disko = {
+{ inputs = {
+nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable"; disko = {
       url = "github:nix-community/disko";
       inputs.nixpkgs.follows = "nixpkgs";
     };
@@ -11,11 +9,7 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
   };
-  outputs =
-    {
-      nixpkgs,
-      ...
-    }@inputs:
+  outputs = { nixpkgs, ... }@inputs:
     {
       nixosConfigurations.default = nixpkgs.lib.nixosSystem {
         specialArgs = {
@@ -26,7 +20,7 @@
           inputs.home-manager.nixosModules.default
           inputs.impermanence.nixosModules.impermanence
           inputs.disko.nixosModules.default
-          (import ./management/disko.nix { device = "/dev/nvme0n1"; })
+          (import ./disko.nix { device = "/dev/nvme0n1"; })
         ];
       };
     };

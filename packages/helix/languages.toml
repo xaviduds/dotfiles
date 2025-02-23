@@ -64,6 +64,10 @@ auto-format = true
 formatter = { command = "nixfmt" }  # Install via nix: `nix-env -iA nixpkgs.nixfmt`
 
 [[language]]
+name = "markdown"
+formatter = { command = "dprint", args = ["fmt", "--stdin", "md"]}
+
+[[language]]
 name = "prisma"
 file-types = ["prisma"]
 auto-format = true

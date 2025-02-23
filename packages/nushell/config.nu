@@ -8,6 +8,7 @@ use ~/.cache/starship/init.nu
 # General
 alias e = exit
 alias h = helix
+alias y = yazi
 def z [] { clear; ls -a | sort-by type }
 
 # Git

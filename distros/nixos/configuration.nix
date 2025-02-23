@@ -1,4 +1,5 @@
 { pkgs, lib, inputs, ... }: {
+
   imports = [ ./hardware-configuration.nix ];
 
   hardware = {
@@ -225,7 +226,6 @@
     displayManager = {
       sddm = {
         enable = true;
-        # theme = "catppuccin-mocha";
         wayland.enable = true;
       };
     };

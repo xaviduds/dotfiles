@@ -48,6 +48,10 @@ cat_dotfiles() {
     mkdir -p "$CONFIG_DIR/waybar"
     cat "$DOTFILES_DIR/waybar/config" > "$CONFIG_DIR/waybar/config"
     cat "$DOTFILES_DIR/waybar/style.css" > "$CONFIG_DIR/waybar/style.css"
+
+    mkdir -p "$CONFIG_DIR/yazi"
+    cat "$DOTFILES_DIR/yazi/yazi.toml" > "$CONFIG_DIR/yazi/yazi.toml"
+    cat "$DOTFILES_DIR/yazi/keymap.toml" > "$CONFIG_DIR/yazi/keymap.toml"
 }
 
 configure_daemons() {
