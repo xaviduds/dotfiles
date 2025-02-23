@@ -6,7 +6,9 @@ brightnessctl
 carapace
 chromium
 clang
+dbeaver
 docker
+docker-compose
 dockerfile-language-server
 dunst
 efibootmgr
@@ -14,7 +16,6 @@ fastfetch
 feh
 firefox
 fzf
-gcc
 ghostty
 git
 google-chrome
@@ -24,6 +25,7 @@ gst-plugin-pipewire
 helix
 hyprland
 inetutils
+inotify-tools
 intel-media-driver
 intel-ucode
 iwd
@@ -37,7 +39,6 @@ lldb
 lua-language-server
 man-db
 marksman
-mesa
 mesa-demos
 mesa-utils
 mpv
@@ -48,24 +49,21 @@ networkmanager
 network-manager-applet
 nil-git
 nix
+nixfmt
 nodejs
 npm
 nushell
-openssh
-openssl
 pipewire
 pipewire-alsa
 pipewire-jack
 pipewire-pulse
 polkit-kde-agent
 postman-bin
-prettier
 prisma-language-server
 pyright
 python-lsp-server
 qt5-wayland
 qt6-wayland
-ripgrep
 rofi-wayland
 ruff
 rustup
@@ -73,7 +71,6 @@ sddm
 shfmt
 slurp
 smartmontools
-sql-formatter
 sql-language-server
 starship
 stremio
@@ -135,8 +132,6 @@ xorg-xwininfo
 xorg-xwud
 yarn
 yay
-yay-bin
-yay-bin-debug
 yay-debug
 yazi
 zathura
