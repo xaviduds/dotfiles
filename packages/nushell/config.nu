@@ -1,3 +1,6 @@
+$env.BUN_INSTALL = $"($env.HOME)/.bun"
+$env.RUSTLINGS_INSTALL = $"($env.HOME)/.cargo"
+$env.PATH = ($env.PATH | append $"($env.BUN_INSTALL)/bin" | append $"($env.RUSTLINGS_INSTALL)/bin")
 $env.config.show_banner = false
 $env.EDITOR = "helix"
 $env.VISUAL = "helix"
@@ -13,6 +16,10 @@ def z [] { clear; ls -a | sort-by type }
 
 # Git
 alias s = git status
+alias p = git push
+alias gs = git switch
+alias gf = git fetch
+alias gp = git pull
 
 # Nix-shells
 alias ns = nix-shell

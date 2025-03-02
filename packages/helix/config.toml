@@ -7,8 +7,8 @@ soft-wrap.enable = true
 cursor-shape.insert = "bar"
 bufferline = "multiple"
 end-of-line-diagnostics = "hint"
-completion-trigger-len = 1
-completion-replace = true
+completion-trigger-len = 0
+# completion-replace = true
 
 [editor.indent-guides]
 render = true
@@ -21,7 +21,7 @@ after-delay.enable = true
 after-delay.timeout = 5000
 
 [editor.inline-diagnostics]
-cursor-line = "error"
+cursor-line = "hint"
 
 [editor.file-picker]
 hidden = false

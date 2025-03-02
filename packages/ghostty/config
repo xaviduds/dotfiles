@@ -5,21 +5,13 @@ mouse-hide-while-typing = true
 background-opacity = 0.88
 resize-overlay = never
 copy-on-select = true
-window-decoration = true
-gtk-titlebar = false
 confirm-close-surface = false
 shell-integration = detect
 
-custom-shader = shader.glsl
 keybind = ctrl+tab=unbind
 keybind = ctrl+shift+tab=unbind
 window-padding-x = 0,0
 window-padding-y = 0,0
-
-quick-terminal-position = top
-quick-terminal-screen = main
-
-keybind = alt+shift+t=toggle_quick_terminal 
 
 keybind = super+c=close_window
 keybind = super+c=quit
@@ -50,9 +42,9 @@ keybind = ctrl+alt+l=unbind
 keybind = ctrl+alt+p=unbind
 keybind = ctrl+alt+n=unbind
 
-keybind = ctrl+alt+h=goto_split:left
-keybind = ctrl+alt+j=goto_split:bottom
-keybind = ctrl+alt+k=goto_split:top
-keybind = ctrl+alt+l=goto_split:right
-keybind = ctrl+alt+p=goto_split:previous
-keybind = ctrl+alt+n=goto_split:next
+keybind = shift+alt+h=goto_split:left
+keybind = shift+alt+j=goto_split:bottom
+keybind = shift+alt+k=goto_split:top
+keybind = shift+alt+l=goto_split:right
+keybind = shift+alt+p=goto_split:previous
+keybind = shift+alt+n=goto_split:next

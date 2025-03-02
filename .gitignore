@@ -1,4 +1,0 @@
-node_modules
-zig-out
-.zig-cache
-.env*

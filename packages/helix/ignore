@@ -14,3 +14,4 @@
 .cabal
 .eclipse
 go
+node_modules

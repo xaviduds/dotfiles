@@ -17,3 +17,5 @@ add aviso de tasks que falharam em um log
 Add logger, n precisar fazer printf
 
 Quando crdt, tirar pressão de mensagens de websocket se tiver websocket, a stream de mensagens não vai se acumular, vai pedir pra renderização e estado usarem a última mensagem, não precisa computar tudo, cliente pode computar a ultima com aquilo que tem em estdo, que provavelmente foi enviado pro servidor mas não voltou, então cliente muda a, servidor muda b 100000 vezes, enquanto tiver recebendo b enquanto tiver computando novo estado de a modificado e b modificado ele reinicia a computação usando o novo b, optimal? normal?
+
+ter uma forma de linkar o id de uma linha em uma tabela com um arquivo pra que os dois possam ser vistos juntos, pra tu ter notas e uma forma de estruturar o porque daquele processo existir, se tu estuda varias coisas tu tem que colocar em pratica e resolver os conflitos de filosofias e dicas e o que funciona pra ti, e isso acarreta em mudanças de rotina e em geral um dna lince diferente.
