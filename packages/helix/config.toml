@@ -10,6 +10,9 @@ end-of-line-diagnostics = "hint"
 completion-trigger-len = 0
 # completion-replace = true
 
+[editor.lsp]
+display-inlay-hints = true
+
 [editor.indent-guides]
 render = true
 character = "▏" # Some characters that work well: "▏", "┆", "┊", "⸽"
