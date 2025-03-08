@@ -1,46 +1,13 @@
-@define-color rosewater rgba(245, 224, 220, 1);
-@define-color flamingo rgba(242, 205, 205, 1);
-@define-color pink rgba(245, 194, 231, 1);
-@define-color mauve rgba(203, 166, 247, 1);
-@define-color red rgba(243, 139, 168, 1);
-@define-color maroon rgba(235, 160, 172, 1);
-@define-color peach rgba(250, 183, 135, 1);
-@define-color yellow rgba(249, 226, 175, 1);
-@define-color green rgba(166, 227, 161, 1);
-@define-color teal rgba(148, 226, 213, 1);
-@define-color sky rgba(137, 220, 235, 1);
-@define-color sapphire rgba(116, 199, 236, 1);
-@define-color blue rgba(137, 180, 250, 1);
-@define-color lavender rgba(180, 190, 254, 1);
-@define-color text rgba(205, 214, 244, 1);
-@define-color subtext1 rgba(186, 194, 222, 1);
-@define-color subtext0 rgba(166, 173, 200, 1);
-@define-color overlay2 rgba(147, 153, 178, 1);
-@define-color overlay1 rgba(127, 132, 156, 1);
-@define-color overlay0 rgba(108, 112, 134, 1);
-@define-color surface2 rgba(88, 91, 112, 1);
-@define-color surface1 rgba(69, 71, 90, 1);
-@define-color surface0 rgba(49, 50, 68, 1);
-@define-color base rgba(30, 30, 46, 1);
-@define-color mantle rgba(24, 24, 37, 1);
-@define-color crust rgba(17, 17, 27, 1);
-
 * {
-  font-family:
-    JetBrains Mono,
-    FontAwesome,
-    Roboto,
-    Helvetica,
-    Arial,
-    sans-serif;
+  font-family: JetBrains Mono, FontAwesome, Roboto, Helvetica, Arial, sans-serif;
   font-size: 12px;
 }
 
 window#waybar {
   margin: 0;
   padding: 0;
-  background: @base;
-  color: @text;
+  background: #1e1e2e;
+  color: #cdd6f4;
 }
 
 .modules-left>widget:first-child>#workspaces {
@@ -48,16 +15,7 @@ window#waybar {
 }
 
 #window,
-#workspaces {
-  margin: 0 3px;
-}
-
-#workspaces button {
-  padding: 0 3px;
-  background-color: transparent;
-  color: #ffffff;
-}
-
+#workspaces,
 #battery,
 #cpu,
 #memory,
@@ -75,13 +33,19 @@ window#waybar {
 #custom-microphone,
 #privacy,
 #clock {
+  margin: 0 3px;
   padding: 0 3px;
+}
+
+#workspaces button {
+  padding: 0 3px;
+  background: transparent;
+  color: #fff;
 }
 
 #backlight-slider slider,
 #pulseaudio-slider slider {
-  background: @subtext1;
-  background-color: transparent;
+  background: transparent;
   box-shadow: none;
   border-radius: 10px;
   margin-right: 1px;
@@ -90,20 +54,17 @@ window#waybar {
 
 #backlight-slider trough,
 #pulseaudio-slider trough {
-  margin-top: -3px;
+  margin: -3px 0 -4px;
   min-width: 90px;
   min-height: 8px;
-  margin-bottom: -4px;
   border-radius: 8px;
-  background: @overlay0;
-  /* Unfilled part */
+  background: #6c7086;
   border: none;
 }
 
 #backlight-slider highlight,
 #pulseaudio-slider highlight {
   border-radius: 10px;
-  background: @subtext0;
-  /* Filled part - change this to any color you prefer */
+  background: #a6adc8;
   border: none;
 }
