@@ -1,70 +1,7 @@
 * {
   font-family: JetBrains Mono, FontAwesome, Roboto, Helvetica, Arial, sans-serif;
   font-size: 12px;
-}
-
-window#waybar {
-  margin: 0;
-  padding: 0;
+  margin: 0 2px;
+  padding: 0 0px;
   background: #1e1e2e;
-  color: #cdd6f4;
-}
-
-.modules-left>widget:first-child>#workspaces {
-  margin-left: 0;
-}
-
-#window,
-#workspaces,
-#battery,
-#cpu,
-#memory,
-#disk,
-#temperature,
-#network,
-#wireplumber,
-#custom-media,
-#tray,
-#mode,
-#idle_inhibitor,
-#scratchpad,
-#power-profiles-daemon,
-#mpd,
-#custom-microphone,
-#privacy,
-#clock {
-  margin: 0 3px;
-  padding: 0 3px;
-}
-
-#workspaces button {
-  padding: 0 3px;
-  background: transparent;
-  color: #fff;
-}
-
-#backlight-slider slider,
-#pulseaudio-slider slider {
-  background: transparent;
-  box-shadow: none;
-  border-radius: 10px;
-  margin-right: 1px;
-  border: none;
-}
-
-#backlight-slider trough,
-#pulseaudio-slider trough {
-  margin: -3px 0 -4px;
-  min-width: 90px;
-  min-height: 8px;
-  border-radius: 8px;
-  background: #6c7086;
-  border: none;
-}
-
-#backlight-slider highlight,
-#pulseaudio-slider highlight {
-  border-radius: 10px;
-  background: #a6adc8;
-  border: none;
 }
