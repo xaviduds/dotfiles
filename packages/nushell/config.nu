@@ -29,5 +29,5 @@ alias hl = helix ~/lince-social/dev
 
 # Arch
 alias i = yay -S --needed --noconfirm
-alias sa = bash ~/xaviduds/dotfiles/distros/arch/arch.sh -s
-alias ia = bash ~/xaviduds/dotfiles/distros/arch/arch.sh -i
+alias sa = bash ~/xaviduds/dotfiles/packages/lince/os.sh -s
+alias ia = bash ~/xaviduds/dotfiles/packages/lince/os.sh -i

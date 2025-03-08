@@ -103,3 +103,8 @@ auto-format = true
 name = "jsx"
 file-types = ["jsx"]
 auto-format = true
+
+[[language]]
+name = "toml"
+auto-format = true
+formatter = { command = "taplo", args = ["fmt", "-"] }

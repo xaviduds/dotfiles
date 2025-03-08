@@ -36,6 +36,8 @@ cat_dotfiles() {
     cat "$DOTFILES_DIR/hypr/hyprland.conf" > "$CONFIG_DIR/hypr/hyprland.conf"
     
     mkdir -p "$CONFIG_DIR/lince"
+    rm -rf "$CONFIG_DIR/lince/os.toml"
+    cat "$DOTFILES_DIR/lince/os.toml" > "$CONFIG_DIR/lince/os.toml"
     
     mkdir -p "$CONFIG_DIR/nushell"
     rm -rf "$CONFIG_DIR/nushell/env.nu"
@@ -119,10 +121,9 @@ clone_git_repos() {
 }
 
 manage_packages() {
-    FILE="$THIS_REPO/distros/arch/packages"
-    tidy_file() { sort -u "$FILE" -o "$FILE"; }
-    install_packages() { yay -S --noconfirm --needed - < "$FILE"; }
-    check_explicit_packages() { pacman -Qqe >> "$FILE"; }
+    tidy_file() { sort -u "$DOTFILES_DIR" -o "$DOTFILES_DIR"; }
+    install_packages() { yay -S --noconfirm --needed - < "$DOTFILES_DIR"; }
+    check_explicit_packages() { pacman -Qqe >> "$DOTFILES_DIR"; }
     delete_orphans() { sudo pacman -Rns $(pacman -Qdtq); }
     
     check_explicit_packages

@@ -1,3 +1,13 @@
+[startup]
+items = [
+"ghostty -e helix ~/lince-social/dev",
+"waybar",
+"swww-daemon",
+'swww img -t grow --transition-duration 0.7 "$(find ~/xaviduds/dotfiles/wallpapers/programar -type f | shuf -n 1)" > /dev/null',
+"firefox"
+]
+
+
 /home/eduardo/Downloads
 /home/eduardo/creatus
 /home/eduardo/.ignore
