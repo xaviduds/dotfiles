@@ -30,9 +30,25 @@ cursor-line = "hint"
 hidden = false
 
 [editor.statusline]
-left = ["mode", "read-only-indicator","file-type", "file-name","version-control", "read-only-indicator", "file-modification-indicator"]
+left = [
+  "mode",
+  "read-only-indicator",
+  "file-type",
+  "file-name",
+  "version-control",
+  "read-only-indicator",
+  "file-modification-indicator",
+]
 center = ["spinner", "workspace-diagnostics"]
-right = ["diagnostics", "selections", "position", "register", "total-line-numbers", "position-percentage","file-encoding"]
+right = [
+  "diagnostics",
+  "selections",
+  "position",
+  "register",
+  "total-line-numbers",
+  "position-percentage",
+  "file-encoding",
+]
 separator = ""
 mode.normal = "N"
 mode.insert = "I"
@@ -40,28 +56,34 @@ mode.select = "S"
 
 [keys.normal]
 C-z = [":reset-diff-change"]
-A-j = [ "extend_to_line_bounds", "delete_selection", "paste_after" ]
-A-k = [ "extend_to_line_bounds", "delete_selection", "move_line_up", "paste_before" ]
-A-w = [ ":w" ]
-A-q = [ ":q" ]
-A-s = [ ":wq" ]
-A-d = [ ":bc" ]
+A-j = ["extend_to_line_bounds", "delete_selection", "paste_after"]
+A-k = [
+  "extend_to_line_bounds",
+  "delete_selection",
+  "move_line_up",
+  "paste_before",
+]
+A-w = [":w"]
+A-q = [":q"]
+A-s = [":wq"]
+A-d = [":bc"]
 C-tab = [":buffer-next"]
 "C-S-tab" = [":buffer-previous"]
 C-h = ["jump_view_left"]
 C-j = ["jump_view_down"]
 C-k = ["jump_view_up"]
 C-l = ["jump_view_right"]
-C-m = []
+# C-m = [] # commented this dunno if it breaks
 C-x = ["decrement"]
-"[" = { d = [":w", "goto_prev_diag", "code_action"]} 
-"]" = { d = [":w", "goto_next_diag", "code_action"]} 
+"[" = { d = [":w", "goto_prev_diag", "code_action"] }
+"]" = { d = [":w", "goto_next_diag", "code_action"] }
+"Y" = { d = [":yank-diagnostic"] }
 
 [keys.insert]
-A-w = [ ":w" ]
-A-q = [ ":q" ]
-A-s = [ ":wq" ]
-A-d = [ ":bc" ]
+A-w = [":w"]
+A-q = [":q"]
+A-s = [":wq"]
+A-d = [":bc"]
 C-tab = [":buffer-next"]
 "C-S-tab" = [":buffer-previous"]
 C-h = ["jump_view_left"]

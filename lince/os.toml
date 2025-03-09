@@ -1,21 +1,4 @@
-[startup]
-list = [
-  "ghostty -e helix ~/lince-social/dev",
-  "waybar",
-  "swww-daemon",
-  'swww img -t grow --transition-duration 0.7 "$(find ~/xaviduds/dotfiles/wallpapers/programar -type f | shuf -n 1)" > /dev/null',
-  "firefox",
-]
-
-[idempotent]
-
-[idempotent.ssh]
-email = [
-  'mv /persist/xaviduds/dotfiles ~/xaviduds/',
-  'ssh-keygen -t ed25519 -C "xaviduds@gmail.com" && eval "$(ssh-agent -s)" && ssh-add ~/.ssh/id_ed25519 && cat ~/.ssh/id_ed25519.pub',
-]
-
-[idempotent.anicca] # NON LINCE
+[nicca]
 list = [
   "/home/eduardo/Downloads",
   "/home/eduardo/creatus",
@@ -29,7 +12,6 @@ list = [
   "/home/eduardo/.config",
   "/home/eduardo/.cargo",
   "/home/eduardo/xaviduds",
-  "/home/eduardo/.cache/ola",
   "/home/eduardo/.config/helix",
   "/home/eduardo/.config/ghostty",
   "/home/eduardo/.config/Postman",
@@ -44,108 +26,16 @@ list = [
   "/home/eduardo/.config/carapace",
 ]
 
-[idempotent.repositories]
-"xaviduds/dotfiles" = "git clone git@github.com:xaviduds/dotfiles"
-"lince-social/lince" = "git clone git@github.com:lince-social/lince"
-"xaviduds/lince" = "git clone git@github.com:xaviduds/lince"
-
-[idempotent.dotfiles]
-
-# cat_dotfiles() {
-#     mkdir -p "$CONFIG_DIR/ghostty"
-#     cat "$DOTFILES_DIR/ghostty/config" >"$CONFIG_DIR/ghostty/config"
-
-#     cat "$DOTFILES_DIR/git/gitconfig" >"$HOME_DIR/.gitconfig"
-
-#     mkdir -p "$CONFIG_DIR/helix/themes"
-#     cat "$DOTFILES_DIR/helix/ignore" >"$HOME_DIR/.ignore"
-#     cat "$DOTFILES_DIR/helix/themes/catppuccin_mocha.toml" >"$CONFIG_DIR/helix/themes/catppuccin_mocha.toml"
-#     cat "$DOTFILES_DIR/helix/config.toml" >"$CONFIG_DIR/helix/config.toml"
-#     cat "$DOTFILES_DIR/helix/languages.toml" >"$CONFIG_DIR/helix/languages.toml"
-
-#     mkdir -p "$CONFIG_DIR/hypr"
-#     cat "$DOTFILES_DIR/hypr/hyprland.conf" >"$CONFIG_DIR/hypr/hyprland.conf"
-
-#     mkdir -p "$CONFIG_DIR/lince"
-#     rm -rf "$CONFIG_DIR/lince/os.toml"
-#     cat "$DOTFILES_DIR/lince/os.toml" >"$CONFIG_DIR/lince/os.toml"
-
-#     mkdir -p "$CONFIG_DIR/nushell"
-#     rm -rf "$CONFIG_DIR/nushell/env.nu"
-#     rm -rf "$CONFIG_DIR/nushell/config.nu"
-#     cat "$DOTFILES_DIR/nushell/config.nu" >"$CONFIG_DIR/nushell/config.nu"
-#     cat "$DOTFILES_DIR/nushell/env.nu" >"$CONFIG_DIR/nushell/env.nu"
-
-#     cat "$DOTFILES_DIR/starship/starship.toml" >"$CONFIG_DIR/starship.toml"
-
-#     mkdir -p "$CONFIG_DIR/waybar"
-#     cat "$DOTFILES_DIR/waybar/config" >"$CONFIG_DIR/waybar/config"
-#     cat "$DOTFILES_DIR/waybar/style.css" >"$CONFIG_DIR/waybar/style.css"
-
-#     mkdir -p "$CONFIG_DIR/yazi"
-#     cat "$DOTFILES_DIR/yazi/yazi.toml" >"$CONFIG_DIR/yazi/yazi.toml"
-#     cat "$DOTFILES_DIR/yazi/keymap.toml" >"$CONFIG_DIR/yazi/keymap.toml"
-# }
-
-##########################################
-
-# [idempotent.extra]
-# configure_daemons() {
-#     sudo pacman -S openssh
-#     sudo systemctl enable sshd.service
-#     sudo systemctl start sshd.service
-#     systemctl enable nix-daemon.service
-
-#     SERVICE_FILE="/etc/systemd/system/wol.service"
-#     cat <<EOF > "$SERVICE_FILE"
-# [Unit]
-# Description=Enable Wake-on-LAN
-# After=network.target
-
-# [Service]
-# Type=oneshot
-# ExecStart=/sbin/ethtool -s enp2s0 wol g
-
-# [Install]
-# WantedBy=multi-user.target
-# EOF
-
-#     systemctl daemon-reload
-#     systemctl enable wol.service
-#     systemctl start wol.service
-# }
-
-# install_yay() {
-#     if ! command -v yay &>/dev/null; then
-#         echo "yay is not installed. Installing yay..."
-#         sudo pacman -S --needed base-devel git
-#         git clone https://aur.archlinux.org/yay.git /tmp/yay
-#         cd /tmp/yay
-#         makepkg -si
-#         cd ..
-#         rm -rf yay
-#         echo "yay has been successfully installed."
-#     else
-#         echo "yay is already installed."
-#     fi
-# }
-# install_nix() {
-#     yay -S nix
-#     sudo systemctl enable --now nix-daemon.service
-#     sudo gpasswd -a $USER nix-users
-
-#     nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
-#     nix-channel --update
-
-#     export NIX_PATH=nixpkgs=$HOME/.nix-defexpr/channels/nixpkgs
-#     nix_conf="/etc/nix/nix.conf"
-
-#     if [[ ! -f "$nix_conf" ]]; then
-#         sudo touch "$nix_conf"
-#     fi
-
-#     temp_file=$(mktemp)
-#     grep -v "max-jobs" "$nix_conf" > "$temp_file"
-#     echo "max-jobs = auto" >> "$temp_file"
-#     sudo mv "$temp_file" "$nix_conf"
-# }
+[dotfiles]
+method = "remove and copy over"
+"/home/eduardo/.gitconfig" = "/home/eduardo/dotfiles/git/gitconfig"
+"/home/eduardo/.ignore" = "/home/eduardo/dotfiles/helix/ignore"
+"/home/eduardo/.config/helix" = "/home/eduardo/dotfiles/helix"
+"/home/eduardo/.config/ghostty" = "/home/eduardo/dotfiles/ghostty"
+"/home/eduardo/.config/nushell/config.nu" = "/home/eduardo/dotfiles/nushell/config.nu"
+"/home/eduardo/.config/nushell/env.nu" = "/home/eduardo/dotfiles/nushell/env.nu"
+"/home/eduardo/.config/hypr" = "/home/eduardo/dotfiles/hypr"
+"/home/eduardo/.config/waybar" = "/home/eduardo/dotfiles/waybar"
+"/home/eduardo/.config/lince/os.toml" = "/home/eduardo/dotfiles/lince/os.toml"
+"/home/eduardo/.config/starship.toml" = "/home/eduardo/dotfiles/starship.toml"
+"/home/eduardo/.config/yazi" = "/home/eduardo/dotfiles/yazi"
