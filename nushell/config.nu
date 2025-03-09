@@ -31,15 +31,22 @@ alias hl = helix ~/lince-social/dev
 alias i = yay -S --needed --noconfirm
 alias sa = bash ~/xaviduds/dotfiles/lince/os.sh -s
 alias ia = bash ~/xaviduds/dotfiles/lince/os.sh -i
-# manage_packages() {
-#     PACKAGES="$DOTFILES_DIR/lince/packages"
-#     pacman -Qqe >>"$PACKAGES"
-#     sudo pacman -Rns $(pacman -Qdtq)
-#     sort -u "$PACKAGES" -o "$PACKAGES"
-#     yay -S --noconfirm --needed - <"$PACKAGES"
-# }
+
+def manage_packages [] {
+    pacman -Qqe >>"/home/eduardo/xaviduds/dotfiles/lince/packages"
+    sudo pacman -Rns $(pacman -Qdtq)
+    sort -u "/home/eduardo/xaviduds/dotfiles/packages" -o "/home/eduardo/xaviduds/dotfiles/packages"
+    yay -S --noconfirm --needed - <"/home/eduardo/xaviduds/dotfiles/packages"
+}
 #
 # clean arch:
 # sudo pacman -Sc
 # sudo pacman -R $(pacman -Qtdq)
 # nix-collect-garbage
+
+def install_yay [] {
+  sudo pacman -S --needed git base-devel
+git clone https://aur.archlinux.org/yay-bin.git
+cd yay-bin
+makepkg -si
+}

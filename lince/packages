@@ -10,6 +10,7 @@ dbeaver
 docker
 docker-compose
 dockerfile-language-server
+dolphin
 dunst
 efibootmgr
 fastfetch
@@ -23,12 +24,14 @@ gopls
 grim
 gst-plugin-pipewire
 helix
+htop
 hyprland
 inetutils
 inotify-tools
 intel-media-driver
 intel-ucode
 iwd
+kitty
 lazygit
 less
 libpulse
@@ -71,6 +74,7 @@ sddm
 shfmt
 slurp
 smartmontools
+sof-firmware
 sql-language-server
 starship
 stremio
@@ -81,6 +85,7 @@ ttf-jetbrains-mono-nerd
 typescript-language-server
 ufw
 unzip
+vim
 visual-studio-code-bin
 vscode-langservers-extracted
 vulkan-intel

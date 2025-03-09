@@ -28,4 +28,14 @@ list = [
 
 [dotfiles]
 method = "remove and copy over"
-"/home/eduardo/.config/test/test.md" = "/home/eduardo/dotfiles/test/test.md"
+"/home/eduardo/.gitconfig" = "/home/eduardo/dotfiles/git/.gitconfig"
+"/home/eduardo/.ignore" = "/home/eduardo/dotfiles/helix/.ignore"
+"/home/eduardo/.config/helix" = "/home/eduardo/dotfiles/helix"
+"/home/eduardo/.config/ghostty" = "/home/eduardo/dotfiles/ghostty"
+"/home/eduardo/.config/nushell/config.nu" = "/home/eduardo/dotfiles/nushell/config.nu"
+"/home/eduardo/.config/nushell/env.nu" = "/home/eduardo/dotfiles/nushell/env.nu"
+"/home/eduardo/.config/hypr" = "/home/eduardo/dotfiles/hypr"
+"/home/eduardo/.config/waybar" = "/home/eduardo/dotfiles/waybar"
+"/home/eduardo/.config/lince/os.toml" = "/home/eduardo/dotfiles/lince/os.toml"
+"/home/eduardo/.config/starship.toml" = "/home/eduardo/dotfiles/starship.toml"
+"/home/eduardo/.config/yazi" = "/home/eduardo/dotfiles/yazi"
