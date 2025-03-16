@@ -78,6 +78,8 @@ C-x = ["decrement"]
 "[" = { d = [":w", "goto_prev_diag", "code_action"] }
 "]" = { d = [":w", "goto_next_diag", "code_action"] }
 "Y" = { d = [":yank-diagnostic"] }
+space = { l = [":lsp-restart"], L = [":lsp-stop"], i = [":yank-diagnostic"] }
+
 
 [keys.insert]
 A-w = [":w"]
